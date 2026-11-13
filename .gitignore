@@ -1,0 +1,11 @@
+# One vault per client: client data never goes into git
+clients/*
+!clients/_template/
+# Logs and briefings may mention client details
+memory/logs/*.jsonl
+briefings/*.md
+!briefings/.gitkeep
+.env
+*.key
+__pycache__/
+templates/website/dist/

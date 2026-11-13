@@ -1,0 +1,39 @@
+{
+  "name": "Gabrion",
+  "legal_name": "Gabrion",
+  "title": "Gabrion · AI systems that run your admin, calls and website",
+  "description": "Gabrion builds and runs websites, AI receptionists, automations, software and private AI for UK businesses.",
+  "brand_colour": "#2357c6",
+  "headline": "AI systems that answer, book and get the admin done",
+  "subheadline": "Websites, AI receptionists, automations, custom software and private AI, built on proven templates, tested before launch and looked after for you.",
+  "cta": {"label": "Book a free discovery call", "url": "#contact"},
+  "secondary_cta": {"label": "What we build", "url": "#services"},
+  "services": {
+    "title": "What we build",
+    "lead": "Every service comes from a tested template and checklist, so you get a proven system at a fair, fixed price.",
+    "items": [
+      {"name": "Websites and shops", "text": "Fast, mobile-first sites from industry templates, kept up to date for you or handed over."},
+      {"name": "AI receptionists", "text": "A phone and chat assistant that answers, books and takes messages 24/7."},
+      {"name": "Automations", "text": "Invoices, scheduling, follow-ups and reports that run themselves."},
+      {"name": "Software and SaaS", "text": "Custom apps, client portals, internal tools, or your own software product."},
+      {"name": "Private AI", "text": "An AI computer on your premises. Your documents never leave your building."}
+    ]
+  },
+  "steps": {
+    "title": "How it works",
+    "items": [
+      {"name": "Discovery call", "text": "A free 30-minute call about what costs you time and money."},
+      {"name": "Fixed-price proposal", "text": "What we'll build, the timeline and one clear price."},
+      {"name": "Built and tested privately", "text": "You review a working preview before anything goes live."},
+      {"name": "You approve the launch", "text": "Nothing goes live without your sign-off."},
+      {"name": "We look after it", "text": "Monitoring, fixes and monthly reviews, or a full handover to your team."}
+    ]
+  },
+  "about": {"title": "Your data, handled properly", "paragraphs": [
+    "We work under UK GDPR with a data processing agreement for every client. Each client's data is kept separate and is never used to train AI models.",
+    "Every system is tested against a written checklist before launch, and monitored after it."
+  ]},
+  "contact": {"lead": "Tell us what's taking up your time. We'll reply within one working day.", "email": "hello@example.com"},
+  "closing_title": "See what you could stop doing by hand",
+  "closing_text": "Book a free 30-minute discovery call. No obligation."
+}

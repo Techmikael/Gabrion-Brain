@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./**/*.key)",
+      "Edit(./memory/logs/**)",
+      "Write(./memory/logs/**)",
+      "Edit(./memory/PAUSED)",
+      "Write(./memory/PAUSED)",
+      "Bash(rm memory/PAUSED*)",
+      "Bash(git push --force*)",
+      "Bash(git push origin main*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      { "matcher": "*", "hooks": [ { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/kill_switch.py\"" } ] }
+    ],
+    "PostToolUse": [
+      { "matcher": "*", "hooks": [ { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/log_action.py\"" } ] }
+    ]
+  }
+}

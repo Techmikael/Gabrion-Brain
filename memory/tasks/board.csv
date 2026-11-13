@@ -1,0 +1,12 @@
+id,title,client,owner,status,due,playbook,approval_id,notes
+T001,Register the company at Companies House,gabrion,founder,todo,2026-11-20,,,Phase 0 gate: registered and site live
+T002,Register with the ICO (data protection fee),gabrion,founder,todo,2026-11-27,,,See docs/legal-checklist.md
+T003,"Open accounts: Anthropic API, n8n, HubSpot or this CRM, Linear or Notion, 1Password or Bitwarden, GitHub",gabrion,founder,todo,2026-11-20,,,Blueprint next steps this week
+T004,Push this repository to a private GitHub repo,gabrion,founder,todo,2026-11-16,,,Knowledge base lives here
+T005,Review and edit the first five playbooks,gabrion,founder,todo,2026-11-20,,,Drafts in playbooks/
+T006,Set the prices in docs/pricing.md,gabrion,founder,todo,2026-11-20,proposal,,Placeholders until you set them
+T007,Run the daily briefing every morning,gabrion,chief-of-staff,doing,2026-11-16,,,python3 scripts/daily_briefing.py
+T008,Build the website demo (salon template) and publish Gabrion's own site,gabrion,web-builder,todo,2026-11-27,website-build,,Phase 0 gate
+T009,Set up the AI receptionist demo on a test number,gabrion,voice-chat-builder,todo,2026-11-27,ai-receptionist-setup,,Needs Twilio + Vapi or Retell accounts
+T010,Professional indemnity and cyber insurance quotes,gabrion,founder,todo,2026-12-04,,,
+T011,Win 3 paying clients (phase 1 gate),gabrion,sales,todo,2027-02-12,discovery-call,,

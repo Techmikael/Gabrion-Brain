@@ -1,0 +1,16 @@
+[
+  {"name": "check_availability", "description": "List open appointment slots for a service on a date.",
+   "parameters": {"type": "object", "additionalProperties": false, "required": ["service", "date"],
+     "properties": {"service": {"type": "string"}, "date": {"type": "string", "description": "YYYY-MM-DD"}}}},
+  {"name": "book_appointment", "description": "Book a confirmed slot. Only after reading the details back to the caller.",
+   "parameters": {"type": "object", "additionalProperties": false, "required": ["service", "start", "name", "phone"],
+     "properties": {"service": {"type": "string"}, "start": {"type": "string", "description": "ISO 8601 local time"},
+       "name": {"type": "string"}, "phone": {"type": "string"}, "notes": {"type": "string"}}}},
+  {"name": "take_message", "description": "Send a message to the business.",
+   "parameters": {"type": "object", "additionalProperties": false, "required": ["name", "phone", "reason", "urgent"],
+     "properties": {"name": {"type": "string"}, "phone": {"type": "string"}, "reason": {"type": "string"},
+       "callback_time": {"type": "string"}, "urgent": {"type": "boolean"}}}},
+  {"name": "transfer_call", "description": "Transfer the caller to a person at the business.",
+   "parameters": {"type": "object", "additionalProperties": false, "required": ["reason"],
+     "properties": {"reason": {"type": "string"}}}}
+]

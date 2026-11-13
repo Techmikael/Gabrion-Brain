@@ -1,0 +1,32 @@
+{
+  "name": "Willow & Rose",
+  "legal_name": "Willow & Rose Hair Studio (demo)",
+  "title": "Willow & Rose · Hair studio",
+  "description": "A relaxed hair studio for cuts, colour and blow-dries. Book online in under a minute.",
+  "brand_colour": "#8a4b5c",
+  "headline": "Hair you'll love, booked in a minute",
+  "subheadline": "Cuts, colour and blow-dries by a small, experienced team. Book online any time, day or night.",
+  "cta": {"label": "Book an appointment", "url": "#contact"},
+  "secondary_cta": {"label": "See prices", "url": "#services"},
+  "services": {
+    "title": "Services and prices",
+    "lead": "Prices are a guide; your stylist confirms at the consultation.",
+    "items": [
+      {"name": "Cut and finish", "text": "Consultation, wash, cut and blow-dry.", "price": "from £45"},
+      {"name": "Full colour", "text": "Root-to-tip colour with gloss and finish.", "price": "from £85"},
+      {"name": "Balayage", "text": "Hand-painted, natural-looking lightening.", "price": "from £140"},
+      {"name": "Blow-dry", "text": "Wash and styled blow-dry for any occasion.", "price": "from £30"}
+    ]
+  },
+  "about": {"title": "About the studio", "paragraphs": [
+    "We're a small studio that takes time over every appointment.",
+    "Every colour starts with a free patch test and a proper conversation about what you want."
+  ]},
+  "hours": {"Monday": "Closed", "Tuesday – Friday": "09:00 – 19:00", "Saturday": "09:00 – 17:00", "Sunday": "Closed"},
+  "testimonials": [
+    {"quote": "Sample review text: the client's real Google reviews go here.", "who": "Placeholder review"}
+  ],
+  "contact": {"lead": "Call, email or book online. Our AI receptionist answers 24/7.", "phone": "0000 000 0000", "email": "hello@example.com", "address": "1 Example Street, London"},
+  "closing_title": "Ready for your next appointment?",
+  "closing_text": "Book online in under a minute, any time."
+}
