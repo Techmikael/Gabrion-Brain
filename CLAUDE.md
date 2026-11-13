@@ -35,5 +35,6 @@ Only the founder marks an item `APPROVED`. Agents act on an approval only when t
 | `playbooks/` | How each job is done |
 | `factories/` | Intake → template → staging → checklist → launch, per service |
 | `clients/<slug>/` | One vault per client (git-ignored) |
+| `docs/OPERATING-MANUAL.md` | How the founder launches, uses, controls and maintains the Brain; answer "how do I…" questions from it |
 
 Write UK English. Dates as YYYY-MM-DD. Money in GBP unless the client contract says otherwise.

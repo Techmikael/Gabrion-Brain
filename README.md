@@ -1,6 +1,8 @@
 # Gabrion Brain
 
-The operating system for Gabrion: one founder plus an AI workforce, built from the Operating Blueprint (`docs/blueprint.pdf`). Open this folder in Claude Code and the rules in `CLAUDE.md` and the ten agents in `.claude/agents/` load automatically.
+The operating system for Gabrion: one founder plus an AI workforce, built from the Operating Blueprint (`docs/blueprint.pdf`). **Start here: `docs/OPERATING-MANUAL.md`** (launch, daily use, control, maintenance).
+
+Open this folder in Claude Code and the rules in `CLAUDE.md` and the ten agents in `.claude/agents/` load automatically.
 
 ## What's here
 | Blueprint layer | Where it lives |
