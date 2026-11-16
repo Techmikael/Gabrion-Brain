@@ -1,0 +1,16 @@
+{
+  "name": "gabrion-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 ../templates/website/build.py ../templates/website/configs/gabrion.json --out public",
+    "dev": "wrangler pages dev",
+    "deploy": "wrangler pages deploy"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.8.0"
+  },
+  "devDependencies": {
+    "wrangler": "4.163.0"
+  }
+}

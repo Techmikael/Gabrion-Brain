@@ -5,6 +5,7 @@ Gabrion is one founder plus an AI workforce. Every Claude session in this reposi
 ## Who does what
 - The **Chief of Staff** agent (`.claude/agents/chief-of-staff.md`) routes every request to one of the ten agents and tracks it on the task board.
 - Each agent has one job, a fixed tool set and a written list of what it may do alone and what needs the founder.
+- Specialist agents from agency-agents (installed in `~/.claude/agents/`) may advise on any job; see `docs/specialist-agents.md`. They follow these same rules, and Gabrion playbooks win where they disagree.
 - Work follows the playbook for that job in `playbooks/`. If no playbook exists, the work is "new or unusual" and goes to the founder.
 
 ## The approval rule (non-negotiable)
@@ -35,6 +36,7 @@ Only the founder marks an item `APPROVED`. Agents act on an approval only when t
 | `playbooks/` | How each job is done |
 | `factories/` | Intake → template → staging → checklist → launch, per service |
 | `clients/<slug>/` | One vault per client (git-ignored) |
+| `site/` | Gabrion's live website and its chat (Cloudflare Pages); website leads are pulled with `scripts/pull_website_leads.py` |
 | `docs/OPERATING-MANUAL.md` | How the founder launches, uses, controls and maintains the Brain; answer "how do I…" questions from it |
 
 Write UK English. Dates as YYYY-MM-DD. Money in GBP unless the client contract says otherwise.

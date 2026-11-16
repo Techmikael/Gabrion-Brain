@@ -49,11 +49,39 @@ Open `memory/tasks/board.csv` (Excel, Numbers or Google Sheets all work). Your t
 4. Put your real email and phone in `templates/website/configs/gabrion.json` and publish your site (step 6).
 5. Get insurance quotes (professional indemnity + cyber).
 
-### 6. Publish Gabrion's website
+### 6. Publish Gabrion's website with its AI chat
+Your site has a "Chat with Gabrion" assistant. Visitors ask questions, and when they want a call it saves their details as a lead. It never quotes prices or makes promises. It needs Node.js (nodejs.org, LTS version), a free Cloudflare account and an Anthropic API key (console.anthropic.com → API keys; set a monthly spend limit there).
+
+First put your real email in `templates/website/configs/gabrion.json`. Then, in the terminal:
 ```bash
-python3 templates/website/build.py templates/website/configs/gabrion.json --out templates/website/dist/gabrion
+cd site
+npm install
+npx wrangler login
+npx wrangler kv namespace create LEADS
 ```
-Go to **Cloudflare Pages** (or Netlify) → Create project → **Upload assets** → drag in the `templates/website/dist/gabrion` folder. Then add your domain under *Custom domains*. Free on both.
+The last command prints an `id`. Open `site/wrangler.toml` and replace `PASTE_KV_NAMESPACE_ID_HERE` with it. Then:
+```bash
+npm run build
+npx wrangler pages deploy
+npx wrangler pages secret put ANTHROPIC_API_KEY
+npx wrangler pages secret put ADMIN_TOKEN
+npx wrangler pages deploy
+```
+For each `secret put`, paste the value when asked. `ADMIN_TOKEN` is a long random password you make up (30+ characters) and save in your password manager; it lets the Brain collect leads. The second deploy switches the secrets on.
+
+Your site is live at the `pages.dev` address it prints. Add your own domain in the Cloudflare dashboard → Workers & Pages → gabrion → Custom domains. Open the site and try the chat.
+
+Windows: use `python` instead of `python3` in `site/package.json` (the `build` line).
+
+**To change the website later:** edit `templates/website/configs/gabrion.json`, then `cd site`, `npm run build`, `npx wrangler pages deploy`.
+**To change what the chat says or may do:** edit `site/functions/_lib/frontdesk.js`, then deploy again.
+**Cost:** each chat message is a Claude API call. The chat is limited to 40 messages per visitor per hour. Check spend in the Anthropic console each month.
+
+### 6b. Install the specialist agents
+```bash
+bash scripts/install_agency_agents.sh
+```
+This adds the 70 agency-agents specialists (sales, marketing, product, project management, support, finance) to Claude Code. `docs/specialist-agents.md` says which one to use for each job. Windows: ask Claude in the gabrion-brain folder to "run scripts/install_agency_agents.sh".
 
 ### 7. Optional: Claude's "top three" in the briefing
 Create an API key at console.anthropic.com, then:
@@ -71,8 +99,15 @@ Keep the key in your password manager, never in a file in this folder.
 ### Morning
 ```bash
 cd ~/Documents/gabrion-brain
+python3 scripts/pull_website_leads.py
 python3 scripts/daily_briefing.py --print
 ```
+The first command collects new chat leads from your website into the CRM and task board. It needs two settings, once per terminal (put them in your shell profile to keep them):
+```bash
+export GABRION_SITE_URL="https://your-site.pages.dev"
+export GABRION_ADMIN_TOKEN="the ADMIN_TOKEN from your password manager"
+```
+(Windows: `setx GABRION_SITE_URL "..."` and `setx GABRION_ADMIN_TOKEN "..."`, then open a new terminal.)
 Read **Waiting for you** first. Then open `memory/approvals/queue.md` and for each item change `Status: PENDING` to `APPROVED` or `REJECTED`, with a note if you want changes.
 
 ### Giving work to the Brain

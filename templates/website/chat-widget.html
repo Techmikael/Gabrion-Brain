@@ -1,0 +1,57 @@
+<style>
+.gx-launch[hidden],.gx-panel[hidden]{display:none!important}
+.gx-launch{position:fixed;right:max(18px,env(safe-area-inset-right,0px));bottom:max(18px,env(safe-area-inset-bottom,0px));z-index:50;background:var(--brand);color:var(--on-brand);border:0;border-radius:999px;padding:14px 20px;font:600 15px/1 system-ui,sans-serif;box-shadow:0 6px 24px rgba(0,0,0,.18);cursor:pointer}
+.gx-panel{position:fixed;right:max(18px,env(safe-area-inset-right,0px));bottom:max(18px,env(safe-area-inset-bottom,0px));z-index:51;width:min(380px,calc(100vw - 36px));height:min(560px,calc(100vh - 36px));background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,.2);display:flex;flex-direction:column;overflow:hidden;font-size:15px}
+.gx-head{background:var(--brand);color:var(--on-brand);padding:14px 16px;display:flex;justify-content:space-between;align-items:center}
+.gx-head strong{font-size:16px}.gx-head small{display:block;opacity:.85;font-size:12px}
+.gx-close{background:none;border:0;color:inherit;font-size:22px;cursor:pointer;line-height:1}
+.gx-log{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px;background:var(--soft)}
+.gx-msg{max-width:85%;padding:10px 13px;border-radius:14px;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere}
+.gx-bot{background:#fff;border:1px solid var(--line);align-self:flex-start;border-bottom-left-radius:4px}
+.gx-me{background:var(--brand);color:var(--on-brand);align-self:flex-end;border-bottom-right-radius:4px}
+.gx-note{font-size:12px;color:var(--muted);text-align:center}
+.gx-form{display:flex;gap:8px;padding:10px;border-top:1px solid var(--line);background:#fff}
+.gx-form textarea{flex:1;resize:none;border:1px solid var(--line);border-radius:10px;padding:10px;font:inherit;height:44px;max-height:120px}
+.gx-form button{background:var(--brand);color:var(--on-brand);border:0;border-radius:10px;padding:0 16px;font-weight:600;cursor:pointer}
+.gx-form button:disabled{opacity:.5;cursor:default}
+</style>
+<button class="gx-launch" id="gx-launch" type="button" aria-controls="gx-panel">{{chat_label}}</button>
+<div class="gx-panel" id="gx-panel" role="dialog" aria-label="Chat with {{name}}" hidden>
+  <div class="gx-head"><div><strong>{{name}}</strong><small>AI assistant · replies in seconds</small></div><button class="gx-close" id="gx-close" type="button" aria-label="Close chat">×</button></div>
+  <div class="gx-log" id="gx-log" aria-live="polite">
+    <div class="gx-note">You're chatting with an AI assistant. Please don't share passwords, payment or health details.</div>
+  </div>
+  <form class="gx-form" id="gx-form"><label for="gx-input" style="position:absolute;left:-9999px">Message</label><textarea id="gx-input" maxlength="1500" placeholder="Type your message…"></textarea><button type="submit" id="gx-send">Send</button></form>
+</div>
+<script>
+(function(){
+  var greeting = {{chat_greeting_json}};
+  var launch=document.getElementById('gx-launch'), panel=document.getElementById('gx-panel'), log=document.getElementById('gx-log'),
+      form=document.getElementById('gx-form'), input=document.getElementById('gx-input'), send=document.getElementById('gx-send');
+  var history=[];
+  try{history=JSON.parse(sessionStorage.getItem('gx-history')||'[]')}catch(e){}
+  function save(){try{sessionStorage.setItem('gx-history',JSON.stringify(history.slice(-24)))}catch(e){}}
+  function add(text,who){var d=document.createElement('div');d.className='gx-msg '+(who==='user'?'gx-me':'gx-bot');d.textContent=text;log.appendChild(d);log.scrollTop=log.scrollHeight;return d}
+  add(greeting,'assistant'); history.forEach(function(m){add(m.content,m.role)});
+  function open(){panel.hidden=false;launch.hidden=true;input.focus()}
+  function close(){panel.hidden=true;launch.hidden=false;launch.focus()}
+  launch.addEventListener('click',open); document.getElementById('gx-close').addEventListener('click',close);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!panel.hidden)close()});
+  document.querySelectorAll('a[href="#chat"]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();open()})});
+  input.addEventListener('keydown',function(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();form.requestSubmit()}});
+  form.addEventListener('submit',function(e){
+    e.preventDefault(); var text=input.value.trim(); if(!text||send.disabled)return;
+    input.value=''; add(text,'user'); history.push({role:'user',content:text}); save();
+    send.disabled=true; var typing=add('…','assistant');
+    fetch('/api/chat',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({messages:history})})
+      .then(function(r){return r.json()})
+      .then(function(d){
+        var reply=d.reply||d.error||'Sorry, something went wrong. Please email us instead.';
+        typing.textContent=reply;
+        if(d.reply){history.push({role:'assistant',content:d.reply});save()} else {history.pop();save()}
+      })
+      .catch(function(){typing.textContent='Sorry, the chat is unavailable right now. Please email us instead.';history.pop();save()})
+      .then(function(){send.disabled=false;input.focus();log.scrollTop=log.scrollHeight});
+  });
+})();
+</script>

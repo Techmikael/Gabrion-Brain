@@ -67,8 +67,15 @@ def build(cfg):
         "year": date.today().year, "legal_name": cfg.get("legal_name", cfg["name"]),
         "footer_contact": " · ".join(x for x in [c.get("phone"), c.get("email")] if x),
     }
+    chat = ""
+    if ch := cfg.get("chat"):
+        chat = open(os.path.join(HERE, "chat-widget.html"), encoding="utf-8").read()
+        chat = (chat.replace("{{chat_label}}", e(ch.get("label", "Chat with us")))
+                    .replace("{{chat_greeting_json}}", json.dumps(ch.get("greeting", "Hi! How can I help?")).replace("</", "<\\/"))
+                    .replace("{{name}}", e(cfg["name"])))
+    values["chat"] = chat
     out = open(os.path.join(HERE, "template.html"), encoding="utf-8").read()
-    raw = {"nav", "sections", "secondary_cta"}
+    raw = {"nav", "sections", "secondary_cta", "chat"}
     for k, v in values.items():
         out = out.replace("{{" + k + "}}", str(v) if k in raw else e(v))
     return out

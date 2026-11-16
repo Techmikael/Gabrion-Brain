@@ -1,0 +1,17 @@
+# Cloudflare Pages project for gabrion's website + chat.
+# Deploy: npm run build && npx wrangler pages deploy
+name = "gabrion"
+pages_build_output_dir = "./public"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Website leads and rate-limit counters.
+# Create once with:  npx wrangler kv namespace create LEADS
+# then paste the id it prints below.
+[[kv_namespaces]]
+binding = "LEADS"
+id = "PASTE_KV_NAMESPACE_ID_HERE"
+
+# Secrets (never in this file). Set once with:
+#   npx wrangler pages secret put ANTHROPIC_API_KEY
+#   npx wrangler pages secret put ADMIN_TOKEN      (a long random password you also keep in your password manager)

@@ -6,7 +6,7 @@
   "brand_colour": "#2357c6",
   "headline": "AI systems that answer, book and get the admin done",
   "subheadline": "Websites, AI receptionists, automations, custom software and private AI, built on proven templates, tested before launch and looked after for you.",
-  "cta": {"label": "Book a free discovery call", "url": "#contact"},
+  "cta": {"label": "Book a free discovery call", "url": "#chat"},
   "secondary_cta": {"label": "What we build", "url": "#services"},
   "services": {
     "title": "What we build",
@@ -35,5 +35,6 @@
   ]},
   "contact": {"lead": "Tell us what's taking up your time. We'll reply within one working day.", "email": "hello@example.com"},
   "closing_title": "See what you could stop doing by hand",
-  "closing_text": "Book a free 30-minute discovery call. No obligation."
+  "closing_text": "Book a free 30-minute discovery call. No obligation.",
+  "chat": {"label": "Chat with Gabrion", "greeting": "Hi, I'm Gabrion's AI assistant. Tell me a bit about your business and what's taking up your time, and I'll show you what we could build, or book you a free discovery call."}
 }
