@@ -22,7 +22,7 @@ Don't use the plain `npx ruflo@latest init` from ruflo's README in this folder. 
 
 ## The rules don't change
 - Swarm agents follow `CLAUDE.md`: drafts and branches only. Merges, go-lives, client messages and prices still go to the approval queue.
-- The kill switch (`memory/PAUSED`) stops ruflo's tool calls too, because they run through Claude Code's hooks.
+- The kill switch (`memory/PAUSED`) stops ruflo's tools inside Claude Code too, because they pass through the same hooks. It can't stop ruflo's optional background daemon, so don't start it (`ruflo daemon start`, `--start-all`).
 - ruflo's memory (`.swarm/`, `.claude-flow/`) can contain client details. It stays on your computer and is never committed. Back it up with `clients/`.
 - Swarms are capped at 5 agents. Raise `CLAUDE_FLOW_MAX_AGENTS` in `.mcp.json` only if you need to, and watch your usage.
 
