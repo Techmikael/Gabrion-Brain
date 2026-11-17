@@ -83,6 +83,13 @@ bash scripts/install_agency_agents.sh
 ```
 This adds the 70 agency-agents specialists (sales, marketing, product, project management, support, finance) to Claude Code. `docs/specialist-agents.md` says which one to use for each job. Windows: ask Claude in the gabrion-brain folder to "run scripts/install_agency_agents.sh".
 
+### 6c. Optional: ruflo agent swarms
+For software and website builds, ruflo lets several agents work together and remember past jobs. Install it the safe way (not with ruflo's own `npx ruflo@latest init`):
+```bash
+python3 scripts/install_ruflo.py
+```
+Details, rules and how to remove it: `docs/ruflo.md`.
+
 ### 7. Optional: Claude's "top three" in the briefing
 Create an API key at console.anthropic.com, then:
 ```bash
