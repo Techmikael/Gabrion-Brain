@@ -97,7 +97,8 @@ def main():
         gi = f.read()
     extra = ["# ruflo memory can hold client details: never commit it", ".swarm/", ".claude-flow/",
              ".claude/settings.json.bak-*", "*.before-ruflo-*"]
-    missing = [line for line in extra if line not in gi]
+    present = {line.strip() for line in gi.splitlines()}   # whole lines: ".claude-flow/sessions/" must not count as ".claude-flow/"
+    missing = [line for line in extra if line not in present]
     if missing:
         with open(GITIGNORE, "a", encoding="utf-8") as f:
             f.write("\n" + "\n".join(missing) + "\n")

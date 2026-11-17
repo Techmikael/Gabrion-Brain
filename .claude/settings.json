@@ -10,14 +10,38 @@
       "Bash(rm memory/PAUSED*)",
       "Bash(git push --force*)",
       "Bash(git push origin main*)"
+    ],
+    "allow": [
+      "mcp__claude-flow__*"
     ]
   },
   "hooks": {
     "PreToolUse": [
-      { "matcher": "*", "hooks": [ { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/kill_switch.py\"" } ] }
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/kill_switch.py\""
+          }
+        ]
+      }
     ],
     "PostToolUse": [
-      { "matcher": "*", "hooks": [ { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/log_action.py\"" } ] }
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/log_action.py\""
+          }
+        ]
+      }
     ]
+  },
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
+    "CLAUDE_FLOW_V3_ENABLED": "true",
+    "CLAUDE_FLOW_HOOKS_ENABLED": "true"
   }
 }

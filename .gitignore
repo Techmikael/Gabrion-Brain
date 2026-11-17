@@ -9,3 +9,16 @@ briefings/*.md
 *.key
 __pycache__/
 templates/website/dist/
+
+# Ruflo local secrets and runtime data
+.env.local
+.env.*.local
+.claude-flow/data/
+.claude-flow/logs/
+.claude-flow/sessions/
+
+# ruflo memory can hold client details: never commit it
+.swarm/
+.claude-flow/
+.claude/settings.json.bak-*
+*.before-ruflo-*
