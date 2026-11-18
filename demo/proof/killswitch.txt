@@ -1,0 +1,5 @@
+=== KILL SWITCH TEST (scratch copy of project, real memory untouched)
+case=none exit=0 
+case=global exit=2 Gabrion kill switch is ON (memory/PAUSED). All agents are paused by the founder.
+case=agent exit=2 Agent 'sales' is paused by the founder (memory/paused/sales).
+case=agent(other agent front-desk) exit=0

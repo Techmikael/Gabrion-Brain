@@ -1,0 +1,58 @@
+{
+  "name": "The Copper Pot",
+  "legal_name": "The Copper Pot",
+  "title": "The Copper Pot · Bistro on Fossgate, York",
+  "description": "The Copper Pot is an independent 40-cover bistro at 14 Fossgate, York. Lunch set menu, Sunday roast and private dining for up to 12. Book a table online.",
+  "brand_colour": "#b25c2a",
+  "headline": "An independent bistro on Fossgate, York",
+  "subheadline": "Lunch, dinner and Sunday roast in a warm, unfussy 40-cover bistro. Book your table online.",
+  "cta": {
+    "label": "Book a table",
+    "url": "https://booking.example.com/copperpot"
+  },
+  "services": {
+    "title": "Menu and dining",
+    "nav": "Menu",
+    "items": [
+      {
+        "name": "Lunch set menu, 2 courses",
+        "text": "Our set lunch menu.",
+        "price": "£18"
+      },
+      {
+        "name": "Lunch set menu, 3 courses",
+        "text": "Our set lunch menu.",
+        "price": "£22"
+      },
+      {
+        "name": "Sunday roast",
+        "text": "Served on Sundays.",
+        "price": "from £19"
+      },
+      {
+        "name": "Private dining",
+        "text": "For groups of up to 12. Get in touch to arrange."
+      }
+    ]
+  },
+  "about": {
+    "title": "About The Copper Pot",
+    "paragraphs": [
+      "The Copper Pot is an independent bistro with 40 covers at 14 Fossgate, York."
+    ]
+  },
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday – Thursday": "12:00–22:00",
+    "Friday – Saturday": "12:00–23:00",
+    "Sunday": "12:00–17:00"
+  },
+  "contact": {
+    "lead": "Call, email or book a table online.",
+    "phone": "01632 960371",
+    "email": "tom@copperpot.example.com",
+    "address": "14 Fossgate, York YO1 9TA"
+  },
+  "closing_title": "Ready to book a table?",
+  "closing_text": "Book online any time."
+}

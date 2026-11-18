@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "ACCPAY",
+    "Status": "DRAFT",
+    "Contact": {
+      "Name": "Aqua Office Supplies Ltd"
+    },
+    "InvoiceNumber": "AQ-5512",
+    "Date": "2026-11-03",
+    "CurrencyCode": "GBP",
+    "LineAmountTypes": "Exclusive",
+    "LineItems": [
+      {
+        "Description": "Invoice AQ-5512 from Aqua Office Supplies Ltd",
+        "Quantity": 1,
+        "UnitAmount": "189.50",
+        "TaxType": "INPUT2",
+        "TaxAmount": "37.90"
+      }
+    ],
+    "Total": "227.40",
+    "_source": "invoice-001.txt"
+  },
+  {
+    "Type": "ACCPAY",
+    "Status": "DRAFT",
+    "Contact": {
+      "Name": "Brightwire IT Services"
+    },
+    "InvoiceNumber": "000981",
+    "Date": "2026-11-07",
+    "CurrencyCode": "GBP",
+    "LineAmountTypes": "Exclusive",
+    "LineItems": [
+      {
+        "Description": "Invoice 000981 from Brightwire IT Services",
+        "Quantity": 1,
+        "UnitAmount": "450.00",
+        "TaxType": "INPUT2",
+        "TaxAmount": "90.00"
+      }
+    ],
+    "Total": "540.00",
+    "_source": "invoice-002.txt"
+  },
+  {
+    "Type": "ACCPAY",
+    "Status": "DRAFT",
+    "Contact": {
+      "Name": "Coffee Corner Catering"
+    },
+    "InvoiceNumber": "CC/2026/118",
+    "Date": "2026-11-12",
+    "CurrencyCode": "GBP",
+    "LineAmountTypes": "Exclusive",
+    "LineItems": [
+      {
+        "Description": "Invoice CC/2026/118 from Coffee Corner Catering",
+        "Quantity": 1,
+        "UnitAmount": "86.00",
+        "TaxType": "NONE",
+        "TaxAmount": "0.00"
+      }
+    ],
+    "Total": "86.00",
+    "_source": "invoice-003.txt"
+  }
+]

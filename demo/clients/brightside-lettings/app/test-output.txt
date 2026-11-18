@@ -1,0 +1,41 @@
+test_body_too_large (tests.test_api.ApiTests.test_body_too_large) ... ok
+test_create_and_get (tests.test_api.ApiTests.test_create_and_get) ... ok
+test_create_validation_error (tests.test_api.ApiTests.test_create_validation_error) ... ok
+test_health (tests.test_api.ApiTests.test_health) ... ok
+test_invalid_json_and_non_object (tests.test_api.ApiTests.test_invalid_json_and_non_object) ... ok
+test_list_sorted_urgent_first (tests.test_api.ApiTests.test_list_sorted_urgent_first) ... ok
+test_list_status_filter (tests.test_api.ApiTests.test_list_status_filter) ... ok
+test_not_found (tests.test_api.ApiTests.test_not_found) ... ok
+test_patch_bad_body (tests.test_api.ApiTests.test_patch_bad_body) ... ok
+test_status_transitions (tests.test_api.ApiTests.test_status_transitions) ... ok
+test_failed_transition_leaves_request_unchanged (tests.test_models.TransitionTests.test_failed_transition_leaves_request_unchanged) ... ok
+test_invalid_transitions (tests.test_models.TransitionTests.test_invalid_transitions) ... ok
+test_unknown_status (tests.test_models.TransitionTests.test_unknown_status) ... ok
+test_valid_path (tests.test_models.TransitionTests.test_valid_path) ... ok
+test_sort_urgent_first_then_oldest (tests.test_models.UrgencyTests.test_sort_urgent_first_then_oldest) ... ok
+test_tenant_can_flag_routine_category_urgent (tests.test_models.UrgencyTests.test_tenant_can_flag_routine_category_urgent) ... ok
+test_urgent_categories (tests.test_models.UrgencyTests.test_urgent_categories) ... ok
+test_urgent_category_cannot_be_downgraded (tests.test_models.UrgencyTests.test_urgent_category_cannot_be_downgraded) ... ok
+test_all_errors_reported_together (tests.test_models.ValidationTests.test_all_errors_reported_together) ... ok
+test_bad_email (tests.test_models.ValidationTests.test_bad_email) ... ok
+test_bad_urgency_value (tests.test_models.ValidationTests.test_bad_urgency_value) ... ok
+test_blank_and_non_string_rejected (tests.test_models.ValidationTests.test_blank_and_non_string_rejected) ... ok
+test_body_must_be_object (tests.test_models.ValidationTests.test_body_must_be_object) ... ok
+test_description_length_limits (tests.test_models.ValidationTests.test_description_length_limits) ... ok
+test_required_fields (tests.test_models.ValidationTests.test_required_fields) ... ok
+test_unknown_category (tests.test_models.ValidationTests.test_unknown_category) ... ok
+test_unknown_fields_rejected (tests.test_models.ValidationTests.test_unknown_fields_rejected) ... ok
+test_valid_request_is_normalised (tests.test_models.ValidationTests.test_valid_request_is_normalised) ... ok
+test_add_and_get (tests.test_store.StoreTests.test_add_and_get) ... ok
+test_get_missing (tests.test_store.StoreTests.test_get_missing) ... ok
+test_invalid_transition_not_persisted (tests.test_store.StoreTests.test_invalid_transition_not_persisted) ... ok
+test_list_sorted_urgent_first (tests.test_store.StoreTests.test_list_sorted_urgent_first) ... ok
+test_persists_to_file (tests.test_store.StoreTests.test_persists_to_file) ... ok
+test_set_status_missing (tests.test_store.StoreTests.test_set_status_missing) ... ok
+test_sql_injection_text_stored_literally (tests.test_store.StoreTests.test_sql_injection_text_stored_literally) ... ok
+test_status_filter (tests.test_store.StoreTests.test_status_filter) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.539s
+
+OK

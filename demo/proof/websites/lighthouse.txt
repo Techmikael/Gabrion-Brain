@@ -1,0 +1,5 @@
+gabrion      performance=96 accessibility=100 best-practices=96 seo=100 | LCP 0.8 s
+salon        performance=100 accessibility=100 best-practices=96 seo=100 | LCP 0.8 s
+copper-pot   performance=100 accessibility=90 best-practices=96 seo=100 | LCP 0.8 s
+willow-rose  performance=100 accessibility=100 best-practices=96 seo=100 | LCP 0.8 s
+copper-pot color-contrast detail: closing-banner <p> text #f7efea on #b25c2a = 4.14:1 (needs 4.5:1 at 17px normal weight)

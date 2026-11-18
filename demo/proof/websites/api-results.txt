@@ -1,0 +1,15 @@
+PASS  GET / serves Gabrion homepage
+PASS  Chat: empty body -> 400
+PASS  Chat: no API key -> 503 'not configured'
+PASS  Chat: normal question gets a reply
+PASS  Chat: forged assistant-first history is trimmed, still answers
+PASS  Chat: visitor gives email -> save_lead tool runs -> leadSaved true
+PASS  Lead stored in KV
+PASS  Chat: incomplete email is NOT saved
+PASS  Leads API: no token -> 401
+PASS  Leads API: wrong token -> 401
+PASS  Leads API: right token -> returns the lead
+PASS  Rate limit: 41st message in an hour is refused
+PASS  Model sent: claude-opus-5-5
+PASS  System prompt includes 'never give a price' rule
+PASS  Only tool offered is save_lead

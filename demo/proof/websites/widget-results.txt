@@ -1,0 +1,3 @@
+PASS  'Book a free discovery call' button opens the chat panel
+PASS  message sent from widget -> /api/chat -> reply shown in chat
+PASS  visitor gives email in widget -> lead saved, confirmation shown

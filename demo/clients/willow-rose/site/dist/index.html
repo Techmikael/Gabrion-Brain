@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Willow &amp; Rose · Hair studio</title>
+<meta name="description" content="A relaxed hair studio for cuts, colour and blow-dries. Book online in under a minute.">
+<style>
+:root{--brand:#8a4b5c;--ink:#1d1d1f;--muted:#5f6368;--bg:#fff;--soft:#f6f5f2;--line:#e6e3dc;--on-brand:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--brand)}img{max-width:100%}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.logo{white-space:nowrap;font-weight:700;font-size:20px;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+nav a{color:var(--ink);text-decoration:none;margin-left:20px;font-size:15px}
+nav a.btn{margin-left:20px}
+.btn{display:inline-block;background:var(--brand);color:var(--on-brand);padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:600}
+.btn.ghost{background:transparent;color:var(--brand);border:2px solid var(--brand)}
+.hero{padding:88px 0 72px;background:var(--soft)}
+.hero h1{font-size:clamp(34px,6vw,58px);line-height:1.08;margin:0 0 18px;letter-spacing:-.02em;max-width:16ch}
+.hero p{font-size:20px;color:var(--muted);max-width:56ch;margin:0 0 30px}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap}
+section{padding:72px 0}
+h2{font-size:clamp(26px,4vw,36px);margin:0 0 8px;letter-spacing:-.01em}
+.lead{color:var(--muted);margin:0 0 36px;max-width:60ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{border:1px solid var(--line);border-radius:14px;padding:24px;background:#fff}
+.card h3{margin:0 0 6px;font-size:19px}
+.card p{margin:0;color:var(--muted);font-size:16px}
+.price{display:block;margin-top:14px;font-weight:700;color:var(--ink)}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.steps li{counter-increment:s;background:var(--soft);border-radius:14px;padding:20px}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--brand);color:var(--on-brand);font-weight:700;margin-bottom:10px}
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px}
+table.hours{border-collapse:collapse;width:100%}
+table.hours td{padding:9px 0;border-bottom:1px solid var(--line)}
+table.hours td:last-child{text-align:right;color:var(--muted)}
+.quote{font-size:19px;margin:0 0 8px}
+.who{color:var(--muted);font-size:15px}
+.cta-band{background:var(--brand);color:var(--on-brand);text-align:center}
+.cta-band h2{color:var(--on-brand)}.cta-band p{opacity:.9;margin:0 0 26px}
+.cta-band .btn{background:#fff;color:var(--brand)}
+footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+@media (max-width:720px){nav a:not(.btn){display:none}header .btn{padding:9px 14px;font-size:14px;white-space:nowrap}.hero{padding:56px 0 48px}section{padding:52px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#top">Willow &amp; Rose</a>
+  <nav><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a><a class="btn" href="#contact">Book an appointment</a></nav>
+</div></header>
+<main id="top">
+<div class="hero"><div class="wrap">
+  <h1>Hair you&#x27;ll love, booked in a minute</h1>
+  <p>Cuts, colour and blow-dries by a small, experienced team. Book online any time, day or night.</p>
+  <div class="ctas"><a class="btn" href="#contact">Book an appointment</a><a class="btn ghost" href="#services">See prices</a></div>
+</div></div>
+<section id="services"><div class="wrap"><h2>Services and prices</h2><p class="lead">Prices are a guide; your stylist confirms at the consultation.</p><div class="grid"><div class="card"><h3>Cut and finish</h3><p>Consultation, wash, cut and blow-dry.</p><span class="price">from £45</span></div><div class="card"><h3>Full colour</h3><p>Root-to-tip colour with gloss and finish.</p><span class="price">from £85</span></div><div class="card"><h3>Balayage</h3><p>Hand-painted, natural-looking lightening.</p><span class="price">from £140</span></div><div class="card"><h3>Blow-dry</h3><p>Wash and styled blow-dry for any occasion.</p><span class="price">from £30</span></div></div></div></section>
+<section id="about" style="background:var(--soft)"><div class="wrap"><h2>About the studio</h2><div class="split"><div><p>We&#x27;re a small studio that takes time over every appointment.</p><p>Every colour starts with a free patch test and a proper conversation about what you want.</p></div><div><h3>Opening hours</h3><table class="hours"><tr><td>Monday</td><td>Closed</td></tr><tr><td>Tuesday – Friday</td><td>09:00 – 19:00</td></tr><tr><td>Saturday</td><td>08:30 – 16:00</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table></div></div></div></section>
+<section id="reviews"><div class="wrap"><h2>What clients say</h2><div class="grid"><div class="card"><p class="quote">“Sample review text: the client&#x27;s real Google reviews go here.”</p><span class="who">Placeholder review</span></div></div></div></section>
+<section id="contact" style="background:var(--soft)"><div class="wrap"><h2>Contact</h2><p class="lead">Call, email or book online. Our AI receptionist answers 24/7.</p><p>Phone: <a href="tel:00000000000">0000 000 0000</a><br>Email: <a href="mailto:hello@example.com">hello@example.com</a><br>Address: 1 Example Street, London</p><p><a href="https://www.google.com/maps/search/?api=1&query=1 Example Street, London">Get directions</a></p></div></section>
+<section class="cta-band"><div class="wrap">
+  <h2>Ready for your next appointment?</h2>
+  <p>Book online in under a minute, any time.</p>
+  <a class="btn" href="#contact">Book an appointment</a>
+</div></section>
+</main>
+<footer><div class="wrap">
+  <span>© 2026 Willow &amp; Rose Hair Studio (demo)</span>
+  <span>0000 000 0000 · hello@example.com</span>
+</div></footer>
+
+</body>
+</html>

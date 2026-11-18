@@ -1,0 +1,316 @@
+[
+  {
+    "site": "gabrion",
+    "checks": [
+      {
+        "name": "No sideways scrolling at 375px",
+        "ok": true,
+        "detail": "scrollWidth 375px"
+      },
+      {
+        "name": "Page title set",
+        "ok": true,
+        "detail": "Gabrion · AI systems that run your admin, calls and website"
+      },
+      {
+        "name": "Meta description set",
+        "ok": true,
+        "detail": "Gabrion builds and runs websites, AI receptionists, automations, software and pr"
+      },
+      {
+        "name": "Exactly one H1",
+        "ok": true,
+        "detail": "1 H1"
+      },
+      {
+        "name": "Images have alt text",
+        "ok": true,
+        "detail": "0 images, 0 without alt"
+      },
+      {
+        "name": "Every #link points to a section",
+        "ok": false,
+        "detail": "#chat, #chat, #chat"
+      },
+      {
+        "name": "Colour contrast WCAG AA (solid backgrounds)",
+        "ok": true,
+        "detail": "42 text elements checked"
+      },
+      {
+        "name": "Privacy notice present",
+        "ok": false,
+        "detail": "no privacy notice on the page"
+      },
+      {
+        "name": "Cookie notice present (or no cookies set)",
+        "ok": true,
+        "detail": "no cookie notice text; no cookies set"
+      },
+      {
+        "name": "No tracking before consent (no third-party requests)",
+        "ok": true,
+        "detail": "no external requests"
+      },
+      {
+        "name": "No JavaScript errors",
+        "ok": true,
+        "detail": "none"
+      },
+      {
+        "name": "Tap targets at least 24px tall",
+        "ok": false,
+        "detail": "1 small"
+      },
+      {
+        "name": "No sideways scrolling at 1280px",
+        "ok": true,
+        "detail": "scrollWidth 1280px"
+      }
+    ],
+    "links": [
+      "mailto:hello@example.com"
+    ],
+    "placeholders": [
+      "hello@example.com"
+    ]
+  },
+  {
+    "site": "salon-template",
+    "checks": [
+      {
+        "name": "No sideways scrolling at 375px",
+        "ok": true,
+        "detail": "scrollWidth 375px"
+      },
+      {
+        "name": "Page title set",
+        "ok": true,
+        "detail": "Willow & Rose · Hair studio"
+      },
+      {
+        "name": "Meta description set",
+        "ok": true,
+        "detail": "A relaxed hair studio for cuts, colour and blow-dries. Book online in under a mi"
+      },
+      {
+        "name": "Exactly one H1",
+        "ok": true,
+        "detail": "1 H1"
+      },
+      {
+        "name": "Images have alt text",
+        "ok": true,
+        "detail": "0 images, 0 without alt"
+      },
+      {
+        "name": "Every #link points to a section",
+        "ok": true,
+        "detail": "all resolve"
+      },
+      {
+        "name": "Colour contrast WCAG AA (solid backgrounds)",
+        "ok": true,
+        "detail": "46 text elements checked"
+      },
+      {
+        "name": "Privacy notice present",
+        "ok": false,
+        "detail": "no privacy notice on the page"
+      },
+      {
+        "name": "Cookie notice present (or no cookies set)",
+        "ok": true,
+        "detail": "no cookie notice text; no cookies set"
+      },
+      {
+        "name": "No tracking before consent (no third-party requests)",
+        "ok": true,
+        "detail": "no external requests"
+      },
+      {
+        "name": "No JavaScript errors",
+        "ok": true,
+        "detail": "none"
+      },
+      {
+        "name": "Tap targets at least 24px tall",
+        "ok": false,
+        "detail": "3 small"
+      },
+      {
+        "name": "No sideways scrolling at 1280px",
+        "ok": true,
+        "detail": "scrollWidth 1280px"
+      }
+    ],
+    "links": [
+      "tel:00000000000",
+      "mailto:hello@example.com",
+      "https://www.google.com/maps/search/?api=1&query=1 Example Street, London"
+    ],
+    "placeholders": [
+      "Placeholder",
+      "hello@example.com"
+    ]
+  },
+  {
+    "site": "copper-pot-staging",
+    "checks": [
+      {
+        "name": "No sideways scrolling at 375px",
+        "ok": true,
+        "detail": "scrollWidth 375px"
+      },
+      {
+        "name": "Page title set",
+        "ok": true,
+        "detail": "The Copper Pot · Bistro on Fossgate, York"
+      },
+      {
+        "name": "Meta description set",
+        "ok": true,
+        "detail": "The Copper Pot is an independent 40-cover bistro at 14 Fossgate, York. Lunch set"
+      },
+      {
+        "name": "Exactly one H1",
+        "ok": true,
+        "detail": "1 H1"
+      },
+      {
+        "name": "Images have alt text",
+        "ok": true,
+        "detail": "0 images, 0 without alt"
+      },
+      {
+        "name": "Every #link points to a section",
+        "ok": true,
+        "detail": "all resolve"
+      },
+      {
+        "name": "Colour contrast WCAG AA (solid backgrounds)",
+        "ok": true,
+        "detail": "39 text elements checked"
+      },
+      {
+        "name": "Privacy notice present",
+        "ok": false,
+        "detail": "no privacy notice on the page"
+      },
+      {
+        "name": "Cookie notice present (or no cookies set)",
+        "ok": true,
+        "detail": "no cookie notice text; no cookies set"
+      },
+      {
+        "name": "No tracking before consent (no third-party requests)",
+        "ok": true,
+        "detail": "no external requests"
+      },
+      {
+        "name": "No JavaScript errors",
+        "ok": true,
+        "detail": "none"
+      },
+      {
+        "name": "Tap targets at least 24px tall",
+        "ok": false,
+        "detail": "3 small"
+      },
+      {
+        "name": "No sideways scrolling at 1280px",
+        "ok": true,
+        "detail": "scrollWidth 1280px"
+      }
+    ],
+    "links": [
+      "https://booking.example.com/copperpot",
+      "tel:01632960371",
+      "mailto:tom@copperpot.example.com",
+      "https://www.google.com/maps/search/?api=1&query=14 Fossgate, York YO1 9TA"
+    ],
+    "placeholders": [
+      "01632 960371",
+      "example.com"
+    ]
+  },
+  {
+    "site": "willow-rose-updated",
+    "checks": [
+      {
+        "name": "No sideways scrolling at 375px",
+        "ok": true,
+        "detail": "scrollWidth 375px"
+      },
+      {
+        "name": "Page title set",
+        "ok": true,
+        "detail": "Willow & Rose · Hair studio"
+      },
+      {
+        "name": "Meta description set",
+        "ok": true,
+        "detail": "A relaxed hair studio for cuts, colour and blow-dries. Book online in under a mi"
+      },
+      {
+        "name": "Exactly one H1",
+        "ok": true,
+        "detail": "1 H1"
+      },
+      {
+        "name": "Images have alt text",
+        "ok": true,
+        "detail": "0 images, 0 without alt"
+      },
+      {
+        "name": "Every #link points to a section",
+        "ok": true,
+        "detail": "all resolve"
+      },
+      {
+        "name": "Colour contrast WCAG AA (solid backgrounds)",
+        "ok": true,
+        "detail": "46 text elements checked"
+      },
+      {
+        "name": "Privacy notice present",
+        "ok": false,
+        "detail": "no privacy notice on the page"
+      },
+      {
+        "name": "Cookie notice present (or no cookies set)",
+        "ok": true,
+        "detail": "no cookie notice text; no cookies set"
+      },
+      {
+        "name": "No tracking before consent (no third-party requests)",
+        "ok": true,
+        "detail": "no external requests"
+      },
+      {
+        "name": "No JavaScript errors",
+        "ok": true,
+        "detail": "none"
+      },
+      {
+        "name": "Tap targets at least 24px tall",
+        "ok": false,
+        "detail": "3 small"
+      },
+      {
+        "name": "No sideways scrolling at 1280px",
+        "ok": true,
+        "detail": "scrollWidth 1280px"
+      }
+    ],
+    "links": [
+      "tel:00000000000",
+      "mailto:hello@example.com",
+      "https://www.google.com/maps/search/?api=1&query=1 Example Street, London"
+    ],
+    "placeholders": [
+      "Placeholder",
+      "hello@example.com"
+    ]
+  }
+]

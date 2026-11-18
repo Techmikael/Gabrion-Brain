@@ -1,0 +1,14 @@
+Run 1: 4 items -> 3 draft bills, 1 to error branch; digest 660be1cfa10e; OK
+Run 2: 4 items -> 3 draft bills, 1 to error branch; digest 660be1cfa10e; OK
+Run 3: 4 items -> 3 draft bills, 1 to error branch; digest 660be1cfa10e; OK
+Run 4: 4 items -> 3 draft bills, 1 to error branch; digest 660be1cfa10e; OK
+Run 5: 4 items -> 3 draft bills, 1 to error branch; digest 660be1cfa10e; OK
+
+Draft bills (last run):
+  invoice-001.txt: Aqua Office Supplies Ltd | AQ-5512 | 2026-11-03 | net 189.50 | VAT 37.90 | total 227.40 | DRAFT
+  invoice-002.txt: Brightwire IT Services | 000981 | 2026-11-07 | net 450.00 | VAT 90.00 | total 540.00 | DRAFT
+  invoice-003.txt: Coffee Corner Catering | CC/2026/118 | 2026-11-12 | net 86.00 | VAT 0.00 | total 86.00 | DRAFT
+Error branch (last run):
+  invoice-004.txt: not an invoice (no invoice wording, or says no invoice); missing supplier; missing invoice_no; missing date; missing net; missing vat; missing total -> operations-support
+
+Summary: 5 runs, 0 failed, identical output across runs: True

@@ -1,0 +1,8 @@
+id,client,description,amount_gbp,issued,due,status,paid_on
+INV-0005,willow-rose,Managed website September 2026,95,2026-09-01,2026-09-15,paid,2026-09-10
+INV-0006,willow-rose,Managed website October 2026,95,2026-10-01,2026-10-15,paid,2026-10-14
+INV-0007,willow-rose,Managed website November 2026 + extra changes 1h,135,2026-10-20,2026-11-03,sent,
+INV-0008,copper-pot,Website setup deposit 50% of £1500 (contract signed 2026-11-14),750,2026-11-18,2026-12-02,draft,
+INV-0009,fenwick-physio,AI receptionist setup deposit 50% of £900 (contract signed 2026-11-12; payment terms not stated in contract),450,2026-11-18,,draft,
+INV-0010,northfield-accountants,Automation setup 100% on signature (contract signed 2026-11-10),750,2026-11-18,2026-12-02,draft,
+INV-0011,brightside-lettings,Software deposit 50% of £3200 (4 days x £800; contract signed 2026-11-11; payment terms not stated in contract),1600,2026-11-18,,draft,

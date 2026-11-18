@@ -1,0 +1,17 @@
+[
+  {
+    "to": "operations-support",
+    "workflow": "northfield-invoice-capture",
+    "item": "invoice-004.txt",
+    "reasons": [
+      "not an invoice (no invoice wording, or says no invoice)",
+      "missing supplier",
+      "missing invoice_no",
+      "missing date",
+      "missing net",
+      "missing vat",
+      "missing total"
+    ],
+    "action": "Check item; re-run per run-book section 4"
+  }
+]

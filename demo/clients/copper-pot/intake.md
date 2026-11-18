@@ -1,0 +1,14 @@
+# Client intake — The Copper Pot (DEMO, fictional)
+- Contact: Tom Okafor, owner, tom@copperpot.example.com, 01632 960371
+- Industry: restaurant (independent bistro, 40 covers)
+- Services in scope: website (template), managed
+- Business hours: Mon closed; Tue–Thu 12:00–22:00; Fri–Sat 12:00–23:00; Sun 12:00–17:00
+- Address: 14 Fossgate, York YO1 9TA (fictional business)
+- Show publicly: lunch set menu 2 courses £18, 3 courses £22; Sunday roast from £19; private dining for up to 12
+- Booking link: https://booking.example.com/copperpot
+- Brand: copper #b25c2a, cream, warm and unfussy; logo to follow (use text logo for now)
+- Domain: copperpot.example (registrar: client's own)
+- Systems: Gmail, booking.example.com, Square till
+- Sensitive data: none
+- Client approver: Tom Okafor
+- Logins: password-manager vault "Client – The Copper Pot"

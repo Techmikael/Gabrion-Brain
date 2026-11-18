@@ -1,0 +1,16 @@
+# Client intake — Fenwick Physio Clinic (DEMO, fictional)
+- Contact: Dr Helen Fenwick, clinic director, helen@fenwickphysio.example.com, 01632 960402
+- Industry: clinic (physiotherapy, 3 physios)
+- Services: AI receptionist (phone + chat), managed
+- Hours: Mon–Fri 08:00–19:00, Sat 09:00–13:00, Sun closed
+- Address: 2 Station Road, Ilkley LS29 8HB (fictional business)
+- Prices to quote: initial assessment (45 min) £65; follow-up (30 min) £50; sports massage (45 min) £55
+- Booking rules: new patients must book an initial assessment first; 24h cancellation or full fee; no bookings within 2h
+- Calendar: Cliniko (test calendar "Fenwick TEST")
+- Transfer to: reception mobile 01632 960403 in hours; out of hours take a message
+- Emergencies: severe pain, chest pain, numbness, a fall → tell caller to ring 999 or NHS 111; never advise on treatment
+- Complaints: take an urgent message for Dr Fenwick
+- Voice: calm, friendly, British female; greeting "Fenwick Physio, this is the clinic's AI assistant"
+- Summaries to: reception@fenwickphysio.example.com
+- Sensitive data: YES, health. Caller symptoms are not to be recorded beyond "reason for visit" in a few words.
+- Recording: off

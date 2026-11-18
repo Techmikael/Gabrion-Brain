@@ -1,0 +1,13 @@
+=== pull_website_leads.py against local site (leads captured by chat tests)
+2 new website lead(s) added to the CRM and task board.
+  - Test Visitor · Test Co · ai-receptionist
+  - Test Visitor · Test Co · ai-receptionist
+--- KV after pull (collected leads removed from site storage):
+0
+--- second pull (no duplicates):
+No new website leads.
+--- new CRM/board rows:
+W-20261118005925-ad857f,Test Visitor,Test Co,salon,website-chat,enquiry,ai-receptionist,,,reply and offer discovery call,2026-11-19,front-desk,email jo@salon-test.example.com; phone -; need: Misses calls; wants an AI receptionist.
+W-20261118010028-328ae5,Test Visitor,Test Co,salon,website-chat,enquiry,ai-receptionist,,,reply and offer discovery call,2026-11-19,front-desk,email jo@widget-test.example.com; phone -; need: Misses calls; wants an AI receptionist.
+T001,Website enquiry: Test Visitor (Test Co),W-20261118005925-ad857f,front-desk,todo,2026-11-19,discovery-call,,From website chat. Draft reply goes to the approval queue.
+T002,Website enquiry: Test Visitor (Test Co),W-20261118010028-328ae5,front-desk,todo,2026-11-19,discovery-call,,From website chat. Draft reply goes to the approval queue.

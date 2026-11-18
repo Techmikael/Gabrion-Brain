@@ -1,0 +1,68 @@
+
+=== gabrion: 10/13 pass
+PASS  No sideways scrolling at 375px — scrollWidth 375px
+PASS  Page title set — Gabrion · AI systems that run your admin, calls and website
+PASS  Meta description set — Gabrion builds and runs websites, AI receptionists, automations, software and pr
+PASS  Exactly one H1 — 1 H1
+PASS  Images have alt text — 0 images, 0 without alt
+FAIL  Every #link points to a section — #chat, #chat, #chat
+PASS  Colour contrast WCAG AA (solid backgrounds) — 42 text elements checked
+FAIL  Privacy notice present — no privacy notice on the page
+PASS  Cookie notice present (or no cookies set) — no cookie notice text; no cookies set
+PASS  No tracking before consent (no third-party requests) — no external requests
+PASS  No JavaScript errors — none
+FAIL  Tap targets at least 24px tall — 1 small
+PASS  No sideways scrolling at 1280px — scrollWidth 1280px
+links: mailto:hello@example.com
+placeholders still on page: hello@example.com
+
+=== salon-template: 11/13 pass
+PASS  No sideways scrolling at 375px — scrollWidth 375px
+PASS  Page title set — Willow & Rose · Hair studio
+PASS  Meta description set — A relaxed hair studio for cuts, colour and blow-dries. Book online in under a mi
+PASS  Exactly one H1 — 1 H1
+PASS  Images have alt text — 0 images, 0 without alt
+PASS  Every #link points to a section — all resolve
+PASS  Colour contrast WCAG AA (solid backgrounds) — 46 text elements checked
+FAIL  Privacy notice present — no privacy notice on the page
+PASS  Cookie notice present (or no cookies set) — no cookie notice text; no cookies set
+PASS  No tracking before consent (no third-party requests) — no external requests
+PASS  No JavaScript errors — none
+FAIL  Tap targets at least 24px tall — 3 small
+PASS  No sideways scrolling at 1280px — scrollWidth 1280px
+links: tel:00000000000  mailto:hello@example.com  https://www.google.com/maps/search/?api=1&query=1 Example Street, London
+placeholders still on page: Placeholder, hello@example.com
+
+=== copper-pot-staging: 11/13 pass
+PASS  No sideways scrolling at 375px — scrollWidth 375px
+PASS  Page title set — The Copper Pot · Bistro on Fossgate, York
+PASS  Meta description set — The Copper Pot is an independent 40-cover bistro at 14 Fossgate, York. Lunch set
+PASS  Exactly one H1 — 1 H1
+PASS  Images have alt text — 0 images, 0 without alt
+PASS  Every #link points to a section — all resolve
+PASS  Colour contrast WCAG AA (solid backgrounds) — 39 text elements checked
+FAIL  Privacy notice present — no privacy notice on the page
+PASS  Cookie notice present (or no cookies set) — no cookie notice text; no cookies set
+PASS  No tracking before consent (no third-party requests) — no external requests
+PASS  No JavaScript errors — none
+FAIL  Tap targets at least 24px tall — 3 small
+PASS  No sideways scrolling at 1280px — scrollWidth 1280px
+links: https://booking.example.com/copperpot  tel:01632960371  mailto:tom@copperpot.example.com  https://www.google.com/maps/search/?api=1&query=14 Fossgate, York YO1 9TA
+placeholders still on page: 01632 960371, example.com
+
+=== willow-rose-updated: 11/13 pass
+PASS  No sideways scrolling at 375px — scrollWidth 375px
+PASS  Page title set — Willow & Rose · Hair studio
+PASS  Meta description set — A relaxed hair studio for cuts, colour and blow-dries. Book online in under a mi
+PASS  Exactly one H1 — 1 H1
+PASS  Images have alt text — 0 images, 0 without alt
+PASS  Every #link points to a section — all resolve
+PASS  Colour contrast WCAG AA (solid backgrounds) — 46 text elements checked
+FAIL  Privacy notice present — no privacy notice on the page
+PASS  Cookie notice present (or no cookies set) — no cookie notice text; no cookies set
+PASS  No tracking before consent (no third-party requests) — no external requests
+PASS  No JavaScript errors — none
+FAIL  Tap targets at least 24px tall — 3 small
+PASS  No sideways scrolling at 1280px — scrollWidth 1280px
+links: tel:00000000000  mailto:hello@example.com  https://www.google.com/maps/search/?api=1&query=1 Example Street, London
+placeholders still on page: Placeholder, hello@example.com
