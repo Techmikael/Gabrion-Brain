@@ -1,6 +1,6 @@
 # Specialist agents (agency-agents)
 
-The Brain's 10 Gabrion agents do the work and keep to the approval rules. The 70 agency-agents specialists are expert advisers you or the Chief of Staff can call on for one piece of work. Install or update them with:
+The Brain's 10 Gabrion agents lead the work and keep to the approval rules. All 283 agency-agents specialists are placed in the business: each has a department, a manager and a tier (see `docs/AGENT-RULES.md` and `docs/ORG-CHART.md`). 78 are on duty; the rest are on the bench or in reserve. Install or update them with:
 
 ```bash
 bash scripts/install_agency_agents.sh
@@ -26,7 +26,7 @@ They follow `CLAUDE.md` like every other agent: they draft and advise, and anyth
 | Phase 3 marketing | founder | Content Creator, Social Media Strategist, Email Marketing Strategist, PR & Communications Manager, Video Optimization Specialist |
 | Daily or weekly summary | chief-of-staff | Executive Summary Generator, Analytics Reporter |
 
-The China-market specialists (Douyin, Xiaohongshu, WeChat, Baidu and others) are installed too but don't fit a UK business today; ignore them unless you sell into China.
+The China-market, games, GIS and industry-specific specialists are in reserve. Hire one with `python3 scripts/team.py hire <name>` when a client needs it.
 
 ## How to use one
 In Claude Code, inside the gabrion-brain folder:

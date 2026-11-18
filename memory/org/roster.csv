@@ -1,0 +1,284 @@
+agent,title,division,department,manager,tier,status,file
+agents-orchestrator,Agents Orchestrator,specialized,Leadership & Operations,chief-of-staff,advise,on-duty,agents-library/specialized/agents-orchestrator.md
+business-strategist,Business Strategist,specialized,Leadership & Operations,chief-of-staff,advise,on-duty,agents-library/specialized/business-strategist.md
+change-management-consultant,Change Management Consultant,specialized,Leadership & Operations,chief-of-staff,advise,bench,agents-library/specialized/change-management-consultant.md
+corporate-training-designer,Corporate Training Designer,specialized,Leadership & Operations,chief-of-staff,draft,bench,agents-library/specialized/corporate-training-designer.md
+grant-writer,Grant Writer,specialized,Leadership & Operations,chief-of-staff,draft,bench,agents-library/specialized/grant-writer.md
+hr-onboarding,HR Onboarding,specialized,Leadership & Operations,chief-of-staff,draft,bench,agents-library/specialized/hr-onboarding.md
+language-translator,Language Translator,specialized,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/specialized/language-translator.md
+operations-manager,Operations Manager,specialized,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/specialized/operations-manager.md
+organizational-psychologist,Organizational Psychologist,specialized,Leadership & Operations,chief-of-staff,advise,bench,agents-library/specialized/organizational-psychologist.md
+product-behavioral-nudge-engine,Behavioral Nudge Engine,product,Leadership & Operations,chief-of-staff,draft,bench,agents-library/product/product-behavioral-nudge-engine.md
+product-dx-engineer,DX Engineer,product,Leadership & Operations,chief-of-staff,draft,bench,agents-library/product/product-dx-engineer.md
+product-feedback-synthesizer,Feedback Synthesizer,product,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/product/product-feedback-synthesizer.md
+product-manager,Product Manager,product,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/product/product-manager.md
+product-sprint-prioritizer,Sprint Prioritizer,product,Leadership & Operations,chief-of-staff,draft,bench,agents-library/product/product-sprint-prioritizer.md
+product-trend-researcher,Trend Researcher,product,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/product/product-trend-researcher.md
+project-management-experiment-tracker,Experiment Tracker,project-management,Leadership & Operations,chief-of-staff,draft,bench,agents-library/project-management/project-management-experiment-tracker.md
+project-management-jira-workflow-steward,Jira Workflow Steward,project-management,Leadership & Operations,chief-of-staff,draft,bench,agents-library/project-management/project-management-jira-workflow-steward.md
+project-management-meeting-notes-specialist,Meeting Notes Specialist,project-management,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/project-management/project-management-meeting-notes-specialist.md
+project-management-project-shepherd,Project Shepherd,project-management,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/project-management/project-management-project-shepherd.md
+project-management-studio-operations,Studio Operations,project-management,Leadership & Operations,chief-of-staff,draft,bench,agents-library/project-management/project-management-studio-operations.md
+project-management-studio-producer,Studio Producer,project-management,Leadership & Operations,chief-of-staff,draft,bench,agents-library/project-management/project-management-studio-producer.md
+project-manager-senior,Senior Project Manager,project-management,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/project-management/project-manager-senior.md
+recruitment-specialist,Recruitment Specialist,specialized,Leadership & Operations,chief-of-staff,draft,bench,agents-library/specialized/recruitment-specialist.md
+report-distribution-agent,Report Distribution Agent,specialized,Leadership & Operations,chief-of-staff,draft,bench,agents-library/specialized/report-distribution-agent.md
+research-synthesist,Research Synthesist,research,Leadership & Operations,chief-of-staff,advise,on-duty,agents-library/research/research-synthesist.md
+specialized-chief-of-staff,Chief of Staff,specialized,Leadership & Operations,chief-of-staff,advise,on-duty,agents-library/specialized/specialized-chief-of-staff.md
+specialized-cultural-intelligence-strategist,Cultural Intelligence Strategist,specialized,Leadership & Operations,chief-of-staff,advise,bench,agents-library/specialized/specialized-cultural-intelligence-strategist.md
+specialized-document-generator,Document Generator,specialized,Leadership & Operations,chief-of-staff,draft,bench,agents-library/specialized/specialized-document-generator.md
+specialized-master-plan-architect,Master Plan Architect,specialized,Leadership & Operations,chief-of-staff,advise,bench,agents-library/specialized/specialized-master-plan-architect.md
+specialized-strategy-duel-agent,Strategy Duel Agent,specialized,Leadership & Operations,chief-of-staff,advise,bench,agents-library/specialized/specialized-strategy-duel-agent.md
+specialized-workflow-architect,Workflow Architect,specialized,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/specialized/specialized-workflow-architect.md
+support-analytics-reporter,Analytics Reporter,support,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/support/support-analytics-reporter.md
+support-executive-summary-generator,Executive Summary Generator,support,Leadership & Operations,chief-of-staff,draft,on-duty,agents-library/support/support-executive-summary-generator.md
+customer-service,Customer Service,specialized,Front Desk & Customer Care,front-desk,draft,on-duty,agents-library/specialized/customer-service.md
+customer-success-manager,Customer Success Manager,specialized,Front Desk & Customer Care,front-desk,draft,on-duty,agents-library/specialized/customer-success-manager.md
+legal-client-intake,Legal Client Intake,specialized,Front Desk & Customer Care,front-desk,draft,bench,agents-library/specialized/legal-client-intake.md
+support-support-responder,Support Responder,support,Front Desk & Customer Care,front-desk,draft,on-duty,agents-library/support/support-support-responder.md
+sales-account-strategist,Account Strategist,sales,Sales,sales,draft,on-duty,agents-library/sales/sales-account-strategist.md
+sales-coach,Sales Coach,sales,Sales,sales,draft,on-duty,agents-library/sales/sales-coach.md
+sales-data-extraction-agent,Sales Data Extraction Agent,specialized,Sales,sales,draft,bench,agents-library/specialized/sales-data-extraction-agent.md
+sales-deal-strategist,Deal Strategist,sales,Sales,sales,draft,on-duty,agents-library/sales/sales-deal-strategist.md
+sales-offer-lead-gen-strategist,Offer & Lead Gen Strategist,sales,Sales,sales,draft,on-duty,agents-library/sales/sales-offer-lead-gen-strategist.md
+sales-outbound-strategist,Outbound Strategist,sales,Sales,sales,draft,on-duty,agents-library/sales/sales-outbound-strategist.md
+sales-outreach,Sales Outreach,specialized,Sales,sales,draft,on-duty,agents-library/specialized/sales-outreach.md
+sales-pipeline-analyst,Pipeline Analyst,sales,Sales,sales,draft,on-duty,agents-library/sales/sales-pipeline-analyst.md
+marketing-agentic-search-optimizer,Agentic Search Optimizer,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-agentic-search-optimizer.md
+marketing-ai-citation-strategist,AI Citation Strategist,marketing,Marketing,founder,draft,on-duty,agents-library/marketing/marketing-ai-citation-strategist.md
+marketing-app-store-optimizer,App Store Optimizer,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-app-store-optimizer.md
+marketing-carousel-growth-engine,Carousel Growth Engine,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-carousel-growth-engine.md
+marketing-content-creator,Content Creator,marketing,Marketing,founder,draft,on-duty,agents-library/marketing/marketing-content-creator.md
+marketing-developer-community-builder,Developer Community Builder,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-developer-community-builder.md
+marketing-email-strategist,Email Marketing Strategist,marketing,Marketing,founder,draft,on-duty,agents-library/marketing/marketing-email-strategist.md
+marketing-global-podcast-strategist,Global Podcast Strategist,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-global-podcast-strategist.md
+marketing-growth-hacker,Growth Hacker,marketing,Marketing,founder,draft,on-duty,agents-library/marketing/marketing-growth-hacker.md
+marketing-instagram-curator,Instagram Curator,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-instagram-curator.md
+marketing-linkedin-content-creator,LinkedIn Content Creator,marketing,Marketing,founder,draft,on-duty,agents-library/marketing/marketing-linkedin-content-creator.md
+marketing-multi-platform-publisher,Multi-Platform Publisher,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-multi-platform-publisher.md
+marketing-podcast-strategist,Podcast Strategist,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-podcast-strategist.md
+marketing-pr-communications-manager,PR & Communications Manager,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-pr-communications-manager.md
+marketing-reddit-community-builder,Reddit Community Builder,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-reddit-community-builder.md
+marketing-short-video-editing-coach,Short-Video Editing Coach,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-short-video-editing-coach.md
+marketing-social-media-strategist,Social Media Strategist,marketing,Marketing,founder,draft,on-duty,agents-library/marketing/marketing-social-media-strategist.md
+marketing-tiktok-strategist,TikTok Strategist,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-tiktok-strategist.md
+marketing-twitter-engager,Twitter Engager,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-twitter-engager.md
+marketing-video-optimization-specialist,Video Optimization Specialist,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-video-optimization-specialist.md
+marketing-x-twitter-intelligence-analyst,X/Twitter Intelligence Analyst,marketing,Marketing,founder,draft,bench,agents-library/marketing/marketing-x-twitter-intelligence-analyst.md
+paid-media-auditor,Paid Media Auditor,paid-media,Marketing,founder,draft,bench,agents-library/paid-media/paid-media-auditor.md
+paid-media-creative-strategist,Ad Creative Strategist,paid-media,Marketing,founder,draft,bench,agents-library/paid-media/paid-media-creative-strategist.md
+paid-media-paid-social-strategist,Paid Social Strategist,paid-media,Marketing,founder,draft,on-duty,agents-library/paid-media/paid-media-paid-social-strategist.md
+paid-media-ppc-strategist,PPC Campaign Strategist,paid-media,Marketing,founder,draft,on-duty,agents-library/paid-media/paid-media-ppc-strategist.md
+paid-media-programmatic-buyer,Programmatic & Display Buyer,paid-media,Marketing,founder,draft,bench,agents-library/paid-media/paid-media-programmatic-buyer.md
+paid-media-search-query-analyst,Search Query Analyst,paid-media,Marketing,founder,draft,bench,agents-library/paid-media/paid-media-search-query-analyst.md
+paid-media-tracking-specialist,Tracking & Measurement Specialist,paid-media,Marketing,founder,draft,bench,agents-library/paid-media/paid-media-tracking-specialist.md
+specialized-developer-advocate,Developer Advocate,specialized,Marketing,founder,draft,bench,agents-library/specialized/specialized-developer-advocate.md
+sales-discovery-coach,Discovery Coach,sales,Solutions & Proposals,solutions-architect,advise,on-duty,agents-library/sales/sales-discovery-coach.md
+sales-engineer,Sales Engineer,sales,Solutions & Proposals,solutions-architect,draft,on-duty,agents-library/sales/sales-engineer.md
+sales-proposal-strategist,Proposal Strategist,sales,Solutions & Proposals,solutions-architect,draft,on-duty,agents-library/sales/sales-proposal-strategist.md
+specialized-pricing-analyst,Pricing Analyst,specialized,Solutions & Proposals,solutions-architect,advise,on-duty,agents-library/specialized/specialized-pricing-analyst.md
+specialized-salesforce-architect,Salesforce Architect,specialized,Solutions & Proposals,solutions-architect,advise,bench,agents-library/specialized/specialized-salesforce-architect.md
+design-brand-guardian,Brand Guardian,design,Web & Design,web-builder,build,on-duty,agents-library/design/design-brand-guardian.md
+design-image-prompt-engineer,Image Prompt Engineer,design,Web & Design,web-builder,build,bench,agents-library/design/design-image-prompt-engineer.md
+design-inclusive-visuals-specialist,Inclusive Visuals Specialist,design,Web & Design,web-builder,build,bench,agents-library/design/design-inclusive-visuals-specialist.md
+design-persona-walkthrough,Persona Walkthrough Specialist,design,Web & Design,web-builder,build,bench,agents-library/design/design-persona-walkthrough.md
+design-ui-designer,UI Designer,design,Web & Design,web-builder,build,on-duty,agents-library/design/design-ui-designer.md
+design-ui-finish-gate-reviewer,UI Finish-Gate Reviewer,design,Web & Design,web-builder,build,on-duty,agents-library/design/design-ui-finish-gate-reviewer.md
+design-ux-architect,UX Architect,design,Web & Design,web-builder,build,on-duty,agents-library/design/design-ux-architect.md
+design-ux-researcher,UX Researcher,design,Web & Design,web-builder,build,bench,agents-library/design/design-ux-researcher.md
+design-visual-storyteller,Visual Storyteller,design,Web & Design,web-builder,build,bench,agents-library/design/design-visual-storyteller.md
+design-whimsy-injector,Whimsy Injector,design,Web & Design,web-builder,build,bench,agents-library/design/design-whimsy-injector.md
+engineering-cms-developer,CMS Developer,engineering,Web & Design,web-builder,build,on-duty,agents-library/engineering/engineering-cms-developer.md
+engineering-drupal-performance,Drupal Performance Engineer,engineering,Web & Design,web-builder,build,bench,agents-library/engineering/engineering-drupal-performance.md
+engineering-drupal-shopping-cart,Drupal Shopping Cart Engineer,engineering,Web & Design,web-builder,build,bench,agents-library/engineering/engineering-drupal-shopping-cart.md
+engineering-frontend-developer,Frontend Developer,engineering,Web & Design,web-builder,build,on-duty,agents-library/engineering/engineering-frontend-developer.md
+engineering-i18n-engineer,Internationalization Engineer,engineering,Web & Design,web-builder,build,bench,agents-library/engineering/engineering-i18n-engineer.md
+engineering-section-508-specialist,Section 508 Accessibility Specialist,engineering,Web & Design,web-builder,advise,bench,agents-library/engineering/engineering-section-508-specialist.md
+engineering-wordpress-performance,WordPress Performance Engineer,engineering,Web & Design,web-builder,build,bench,agents-library/engineering/engineering-wordpress-performance.md
+engineering-wordpress-shopping-cart,WordPress Shopping Cart Engineer,engineering,Web & Design,web-builder,build,bench,agents-library/engineering/engineering-wordpress-shopping-cart.md
+marketing-aeo-foundations,AEO Foundations Architect,marketing,Web & Design,web-builder,draft,on-duty,agents-library/marketing/marketing-aeo-foundations.md
+marketing-seo-specialist,SEO Specialist,marketing,Web & Design,web-builder,draft,on-duty,agents-library/marketing/marketing-seo-specialist.md
+testing-accessibility-auditor,Accessibility Auditor,testing,Web & Design,web-builder,advise,on-duty,agents-library/testing/testing-accessibility-auditor.md
+automation-governance-architect,Automation Governance Architect,specialized,Automation & AI,automation-builder,advise,on-duty,agents-library/specialized/automation-governance-architect.md
+data-consolidation-agent,Data Consolidation Agent,specialized,Automation & AI,automation-builder,build,bench,agents-library/specialized/data-consolidation-agent.md
+engineering-ai-engineer,AI Engineer,engineering,Automation & AI,automation-builder,build,on-duty,agents-library/engineering/engineering-ai-engineer.md
+engineering-autonomous-optimization-architect,Autonomous Optimization Architect,engineering,Automation & AI,automation-builder,advise,bench,agents-library/engineering/engineering-autonomous-optimization-architect.md
+engineering-email-intelligence-engineer,Email Intelligence Engineer,engineering,Automation & AI,automation-builder,build,bench,agents-library/engineering/engineering-email-intelligence-engineer.md
+engineering-llm-post-training-engineer,LLM Post-Training Engineer,engineering,Automation & AI,automation-builder,build,bench,agents-library/engineering/engineering-llm-post-training-engineer.md
+engineering-multi-agent-systems-architect,Multi-Agent Systems Architect,engineering,Automation & AI,automation-builder,advise,bench,agents-library/engineering/engineering-multi-agent-systems-architect.md
+engineering-prompt-engineer,Prompt Engineer,engineering,Automation & AI,automation-builder,build,on-duty,agents-library/engineering/engineering-prompt-engineer.md
+engineering-rag-pipeline-engineer,RAG Pipeline Engineer,engineering,Automation & AI,automation-builder,build,on-duty,agents-library/engineering/engineering-rag-pipeline-engineer.md
+engineering-voice-ai-integration-engineer,Voice AI Integration Engineer,engineering,Automation & AI,automation-builder,build,on-duty,agents-library/engineering/engineering-voice-ai-integration-engineer.md
+specialized-mcp-builder,MCP Builder,specialized,Automation & AI,automation-builder,build,on-duty,agents-library/specialized/specialized-mcp-builder.md
+specialized-model-qa,Model QA Specialist,specialized,Automation & AI,automation-builder,advise,bench,agents-library/specialized/specialized-model-qa.md
+engineering-ai-data-remediation-engineer,AI Data Remediation Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-ai-data-remediation-engineer.md
+engineering-api-platform-engineer,API Platform Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-api-platform-engineer.md
+engineering-backend-architect,Backend Architect,engineering,Engineering,software-engineer,build,on-duty,agents-library/engineering/engineering-backend-architect.md
+engineering-code-reviewer,Code Reviewer,engineering,Engineering,software-engineer,build,on-duty,agents-library/engineering/engineering-code-reviewer.md
+engineering-codebase-onboarding-engineer,Codebase Onboarding Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-codebase-onboarding-engineer.md
+engineering-data-engineer,Data Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-data-engineer.md
+engineering-data-visualization-engineer,Data Visualization Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-data-visualization-engineer.md
+engineering-database-optimizer,Database Optimizer,engineering,Engineering,software-engineer,build,on-duty,agents-library/engineering/engineering-database-optimizer.md
+engineering-database-reliability-engineer,Database Reliability Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-database-reliability-engineer.md
+engineering-desktop-app-engineer,Desktop App Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-desktop-app-engineer.md
+engineering-developer-tooling-engineer,Developer Tooling Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-developer-tooling-engineer.md
+engineering-devops-automator,DevOps Automator,engineering,Engineering,software-engineer,build,on-duty,agents-library/engineering/engineering-devops-automator.md
+engineering-finops-engineer,FinOps Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-finops-engineer.md
+engineering-git-workflow-master,Git Workflow Master,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-git-workflow-master.md
+engineering-knowledge-graph-engineer,Knowledge Graph Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-knowledge-graph-engineer.md
+engineering-minimal-change-engineer,Minimal Change Engineer,engineering,Engineering,software-engineer,build,on-duty,agents-library/engineering/engineering-minimal-change-engineer.md
+engineering-mobile-app-builder,Mobile App Builder,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-mobile-app-builder.md
+engineering-mobile-release-engineer,Mobile Release Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-mobile-release-engineer.md
+engineering-payments-billing-engineer,Payments & Billing Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-payments-billing-engineer.md
+engineering-pdf-engine-architect,PDF Engine Architect,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-pdf-engine-architect.md
+engineering-platform-engineer,Platform Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-platform-engineer.md
+engineering-rapid-prototyper,Rapid Prototyper,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-rapid-prototyper.md
+engineering-realtime-collaboration-engineer,Realtime Collaboration Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-realtime-collaboration-engineer.md
+engineering-rust-refactoring-specialist,Rust Refactoring Specialist,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-rust-refactoring-specialist.md
+engineering-search-relevance-engineer,Search Relevance Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-search-relevance-engineer.md
+engineering-senior-developer,Senior Developer,engineering,Engineering,software-engineer,build,on-duty,agents-library/engineering/engineering-senior-developer.md
+engineering-software-architect,Software Architect,engineering,Engineering,software-engineer,build,on-duty,agents-library/engineering/engineering-software-architect.md
+engineering-technical-writer,Technical Writer,engineering,Engineering,software-engineer,build,on-duty,agents-library/engineering/engineering-technical-writer.md
+engineering-universal-document-compiler,Universal Document Compiler,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-universal-document-compiler.md
+engineering-video-streaming-engineer,Video Streaming Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-video-streaming-engineer.md
+engineering-webassembly-engineer,WebAssembly Engineer,engineering,Engineering,software-engineer,build,bench,agents-library/engineering/engineering-webassembly-engineer.md
+lsp-index-engineer,LSP/Index Engineer,specialized,Engineering,software-engineer,build,bench,agents-library/specialized/lsp-index-engineer.md
+specialized-codebase-archaeologist,Codebase Archaeologist,specialized,Engineering,software-engineer,advise,bench,agents-library/specialized/specialized-codebase-archaeologist.md
+testing-api-tester,API Tester,testing,Quality & Testing,software-engineer,build,on-duty,agents-library/testing/testing-api-tester.md
+testing-evidence-collector,Evidence Collector,testing,Quality & Testing,software-engineer,build,on-duty,agents-library/testing/testing-evidence-collector.md
+testing-performance-benchmarker,Performance Benchmarker,testing,Quality & Testing,software-engineer,build,bench,agents-library/testing/testing-performance-benchmarker.md
+testing-reality-checker,Reality Checker,testing,Quality & Testing,software-engineer,build,on-duty,agents-library/testing/testing-reality-checker.md
+testing-test-automation-engineer,Test Automation Engineer,testing,Quality & Testing,software-engineer,build,on-duty,agents-library/testing/testing-test-automation-engineer.md
+testing-test-results-analyzer,Test Results Analyzer,testing,Quality & Testing,software-engineer,build,bench,agents-library/testing/testing-test-results-analyzer.md
+testing-tool-evaluator,Tool Evaluator,testing,Quality & Testing,software-engineer,build,bench,agents-library/testing/testing-tool-evaluator.md
+testing-workflow-optimizer,Workflow Optimizer,testing,Quality & Testing,software-engineer,build,bench,agents-library/testing/testing-workflow-optimizer.md
+agentic-identity-trust,Agentic Identity & Trust Architect,specialized,Security & Compliance,operations-support,advise,bench,agents-library/specialized/agentic-identity-trust.md
+data-privacy-officer,Data Privacy Officer,specialized,Security & Compliance,operations-support,advise,on-duty,agents-library/specialized/data-privacy-officer.md
+engineering-identity-access-engineer,Identity & Access Engineer,engineering,Security & Compliance,operations-support,advise,bench,agents-library/engineering/engineering-identity-access-engineer.md
+engineering-privacy-engineer,Privacy Engineer,engineering,Security & Compliance,operations-support,advise,bench,agents-library/engineering/engineering-privacy-engineer.md
+legal-document-review,Legal Document Review,specialized,Security & Compliance,operations-support,advise,on-duty,agents-library/specialized/legal-document-review.md
+security-ai-generated-code-auditor,AI-Generated Code Security Auditor,security,Security & Compliance,operations-support,advise,on-duty,agents-library/security/security-ai-generated-code-auditor.md
+security-appsec-engineer,Application Security Engineer,security,Security & Compliance,operations-support,advise,on-duty,agents-library/security/security-appsec-engineer.md
+security-architect,Security Architect,security,Security & Compliance,operations-support,advise,bench,agents-library/security/security-architect.md
+security-cloud-security-architect,Cloud Security Architect,security,Security & Compliance,operations-support,advise,bench,agents-library/security/security-cloud-security-architect.md
+security-compliance-auditor,Compliance Auditor,security,Security & Compliance,operations-support,advise,bench,agents-library/security/security-compliance-auditor.md
+security-incident-responder,Incident Responder,security,Security & Compliance,operations-support,advise,bench,agents-library/security/security-incident-responder.md
+security-penetration-tester,Penetration Tester,security,Security & Compliance,operations-support,advise,bench,agents-library/security/security-penetration-tester.md
+security-secrets-credential-engineer,Secrets & Credential Hygiene Engineer,security,Security & Compliance,operations-support,advise,on-duty,agents-library/security/security-secrets-credential-engineer.md
+security-senior-secops,Senior SecOps Engineer,security,Security & Compliance,operations-support,advise,bench,agents-library/security/security-senior-secops.md
+security-threat-detection-engineer,Threat Detection Engineer,security,Security & Compliance,operations-support,advise,bench,agents-library/security/security-threat-detection-engineer.md
+security-threat-intelligence-analyst,Threat Intelligence Analyst,security,Security & Compliance,operations-support,advise,bench,agents-library/security/security-threat-intelligence-analyst.md
+support-legal-compliance-checker,Legal Compliance Checker,support,Security & Compliance,operations-support,advise,on-duty,agents-library/support/support-legal-compliance-checker.md
+engineering-incident-response-commander,Incident Response Commander,engineering,Operations & Support,operations-support,advise,on-duty,agents-library/engineering/engineering-incident-response-commander.md
+engineering-it-service-manager,IT Service Manager,engineering,Operations & Support,operations-support,draft,bench,agents-library/engineering/engineering-it-service-manager.md
+engineering-network-engineer,Network Engineer,engineering,Operations & Support,operations-support,advise,bench,agents-library/engineering/engineering-network-engineer.md
+engineering-sre,SRE (Site Reliability Engineer),engineering,Operations & Support,operations-support,build,on-duty,agents-library/engineering/engineering-sre.md
+support-infrastructure-maintainer,Infrastructure Maintainer,support,Operations & Support,operations-support,build,on-duty,agents-library/support/support-infrastructure-maintainer.md
+accounts-payable-agent,Accounts Payable Agent,specialized,Finance,finance-admin,draft,on-duty,agents-library/specialized/accounts-payable-agent.md
+chief-financial-officer,Chief Financial Officer,specialized,Finance,finance-admin,advise,bench,agents-library/specialized/chief-financial-officer.md
+finance-bookkeeper-controller,Bookkeeper & Controller,finance,Finance,finance-admin,draft,on-duty,agents-library/finance/finance-bookkeeper-controller.md
+finance-financial-analyst,Financial Analyst,finance,Finance,finance-admin,draft,bench,agents-library/finance/finance-financial-analyst.md
+finance-fpa-analyst,FP&A Analyst,finance,Finance,finance-admin,draft,on-duty,agents-library/finance/finance-fpa-analyst.md
+finance-investment-researcher,Investment Researcher,finance,Finance,finance-admin,draft,bench,agents-library/finance/finance-investment-researcher.md
+finance-tax-strategist,Tax Strategist,finance,Finance,finance-admin,draft,on-duty,agents-library/finance/finance-tax-strategist.md
+legal-billing-time-tracking,Legal Billing & Time Tracking,specialized,Finance,finance-admin,draft,bench,agents-library/specialized/legal-billing-time-tracking.md
+support-finance-tracker,Finance Tracker,support,Finance,finance-admin,draft,on-duty,agents-library/support/support-finance-tracker.md
+academic-anthropologist,Anthropologist,academic,Reserve,chief-of-staff,advise,reserve,agents-library/academic/academic-anthropologist.md
+academic-geographer,Geographer,academic,Reserve,chief-of-staff,advise,reserve,agents-library/academic/academic-geographer.md
+academic-historian,Historian,academic,Reserve,chief-of-staff,advise,reserve,agents-library/academic/academic-historian.md
+academic-narratologist,Narratologist,academic,Reserve,chief-of-staff,advise,reserve,agents-library/academic/academic-narratologist.md
+academic-psychologist,Psychologist,academic,Reserve,chief-of-staff,advise,reserve,agents-library/academic/academic-psychologist.md
+academic-statistician,Statistician,academic,Reserve,chief-of-staff,advise,reserve,agents-library/academic/academic-statistician.md
+blender-addon-engineer,Blender Add-on Engineer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/blender/blender-addon-engineer.md
+economy-designer,Economy Designer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/economy-designer.md
+engineering-ats-validator-architect,ATS Validator Architect,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-ats-validator-architect.md
+engineering-china-network-engineer,China Network Engineer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-china-network-engineer.md
+engineering-electrical-engineer,Electrical Engineer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-electrical-engineer.md
+engineering-embedded-firmware-engineer,Embedded Firmware Engineer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-embedded-firmware-engineer.md
+engineering-feishu-integration-developer,Feishu Integration Developer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-feishu-integration-developer.md
+engineering-filament-optimization-specialist,Filament Optimization Specialist,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-filament-optimization-specialist.md
+engineering-gaussdb-expert,GaussDB Expert Engineer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-gaussdb-expert.md
+engineering-iot-fleet-engineer,IoT Fleet Engineer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-iot-fleet-engineer.md
+engineering-orgscript-engineer,OrgScript Engineer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-orgscript-engineer.md
+engineering-servicenow-developer-mentor,ServiceNow Developer & Mentor,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-servicenow-developer-mentor.md
+engineering-solidity-smart-contract-engineer,Solidity Smart Contract Engineer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-solidity-smart-contract-engineer.md
+engineering-uswds-developer,USWDS Developer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-uswds-developer.md
+engineering-wechat-mini-program-developer,WeChat Mini Program Developer,engineering,Reserve,chief-of-staff,build,reserve,agents-library/engineering/engineering-wechat-mini-program-developer.md
+esg-sustainability-officer,ESG & Sustainability Officer,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/esg-sustainability-officer.md
+game-audio-engineer,Game Audio Engineer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/game-audio-engineer.md
+game-designer,Game Designer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/game-designer.md
+gis-3d-scene-developer,3D & Scene Developer,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-3d-scene-developer.md
+gis-analyst,GIS Analyst,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-analyst.md
+gis-bim-specialist,BIM/GIS Specialist,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-bim-specialist.md
+gis-cartography-designer,Cartography Designer,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-cartography-designer.md
+gis-drone-reality-mapping,Drone/Reality Mapping Specialist,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-drone-reality-mapping.md
+gis-geoai-ml-engineer,GeoAI/ML Engineer,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-geoai-ml-engineer.md
+gis-geoprocessing-specialist,Geoprocessing Specialist,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-geoprocessing-specialist.md
+gis-qa-engineer,GIS QA Engineer,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-qa-engineer.md
+gis-solution-engineer,Solution Engineer,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-solution-engineer.md
+gis-spatial-data-engineer,Spatial Data Engineer,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-spatial-data-engineer.md
+gis-spatial-data-scientist,Spatial Data Scientist,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-spatial-data-scientist.md
+gis-technical-consultant,Technical Consultant,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-technical-consultant.md
+gis-web-gis-developer,Web GIS Developer,gis,Reserve,chief-of-staff,build,reserve,agents-library/gis/gis-web-gis-developer.md
+godot-gameplay-scripter,Godot Gameplay Scripter,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/godot/godot-gameplay-scripter.md
+godot-multiplayer-engineer,Godot Multiplayer Engineer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/godot/godot-multiplayer-engineer.md
+godot-shader-developer,Godot Shader Developer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/godot/godot-shader-developer.md
+government-digital-presales-consultant,Government Digital Presales Consultant,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/government-digital-presales-consultant.md
+healthcare-aging-parent-care-companion,Aging Parent Care Companion,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/healthcare-aging-parent-care-companion.md
+healthcare-clinical-evidence-agent,Clinical Evidence Agent,healthcare,Reserve,chief-of-staff,advise,reserve,agents-library/healthcare/healthcare-clinical-evidence-agent.md
+healthcare-customer-service,Healthcare Customer Service,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/healthcare-customer-service.md
+healthcare-innovation-strategist,Healthcare Innovation Strategist,healthcare,Reserve,chief-of-staff,advise,reserve,agents-library/healthcare/healthcare-innovation-strategist.md
+healthcare-marketing-compliance,Healthcare Marketing Compliance Specialist,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/healthcare-marketing-compliance.md
+healthcare-sovereign-health-systems-agent,Sovereign Health Systems Agent,healthcare,Reserve,chief-of-staff,advise,reserve,agents-library/healthcare/healthcare-sovereign-health-systems-agent.md
+hospitality-guest-services,Hospitality Guest Services,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/hospitality-guest-services.md
+identity-graph-operator,Identity Graph Operator,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/identity-graph-operator.md
+level-designer,Level Designer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/level-designer.md
+loan-officer-assistant,Loan Officer Assistant,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/loan-officer-assistant.md
+ma-integration-manager,M&A Integration Manager,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/ma-integration-manager.md
+macos-spatial-metal-engineer,macOS Spatial/Metal Engineer,spatial-computing,Reserve,chief-of-staff,build,reserve,agents-library/spatial-computing/macos-spatial-metal-engineer.md
+marketing-baidu-seo-specialist,Baidu SEO Specialist,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-baidu-seo-specialist.md
+marketing-bilibili-content-strategist,Bilibili Content Strategist,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-bilibili-content-strategist.md
+marketing-book-co-author,Book Co-Author,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-book-co-author.md
+marketing-china-ecommerce-operator,China E-Commerce Operator,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-china-ecommerce-operator.md
+marketing-china-market-localization-strategist,China Market Localization Strategist,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-china-market-localization-strategist.md
+marketing-cross-border-ecommerce,Cross-Border E-Commerce Specialist,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-cross-border-ecommerce.md
+marketing-douyin-strategist,Douyin Strategist,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-douyin-strategist.md
+marketing-kuaishou-strategist,Kuaishou Strategist,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-kuaishou-strategist.md
+marketing-livestream-commerce-coach,Livestream Commerce Coach,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-livestream-commerce-coach.md
+marketing-private-domain-operator,Private Domain Operator,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-private-domain-operator.md
+marketing-wechat-official-account,WeChat Official Account Manager,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-wechat-official-account.md
+marketing-weibo-strategist,Weibo Strategist,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-weibo-strategist.md
+marketing-xiaohongshu-specialist,Xiaohongshu Specialist,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-xiaohongshu-specialist.md
+marketing-zhihu-strategist,Zhihu Strategist,marketing,Reserve,chief-of-staff,draft,reserve,agents-library/marketing/marketing-zhihu-strategist.md
+medical-billing-coding-specialist,Medical Billing & Coding Specialist,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/medical-billing-coding-specialist.md
+narrative-designer,Narrative Designer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/narrative-designer.md
+personal-growth-mentor,Personal Growth Mentor,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/personal-growth-mentor.md
+real-estate-buyer-seller,Real Estate Buyer & Seller,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/real-estate-buyer-seller.md
+resume-tailor,Resume Tailor,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/resume-tailor.md
+retail-customer-returns,Retail Customer Returns,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/retail-customer-returns.md
+roblox-avatar-creator,Roblox Avatar Creator,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/roblox-studio/roblox-avatar-creator.md
+roblox-experience-designer,Roblox Experience Designer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/roblox-studio/roblox-experience-designer.md
+roblox-systems-scripter,Roblox Systems Scripter,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/roblox-studio/roblox-systems-scripter.md
+security-blockchain-security-auditor,Blockchain Security Auditor,security,Reserve,chief-of-staff,advise,reserve,agents-library/security/security-blockchain-security-auditor.md
+specialized-civil-engineer,Civil Engineer,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/specialized-civil-engineer.md
+specialized-fedramp-rmf-compliance,FedRAMP & RMF Compliance Engineer,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/specialized-fedramp-rmf-compliance.md
+specialized-focus-music-architect,Focus Music Architect,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/specialized-focus-music-architect.md
+specialized-french-consulting-market,French Consulting Market Navigator,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/specialized-french-consulting-market.md
+specialized-korean-business-navigator,Korean Business Navigator,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/specialized-korean-business-navigator.md
+study-abroad-advisor,Study Abroad Advisor,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/study-abroad-advisor.md
+supply-chain-strategist,Supply Chain Strategist,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/supply-chain-strategist.md
+technical-artist,Technical Artist,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/technical-artist.md
+terminal-integration-specialist,Terminal Integration Specialist,spatial-computing,Reserve,chief-of-staff,build,reserve,agents-library/spatial-computing/terminal-integration-specialist.md
+unity-architect,Unity Architect,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/unity/unity-architect.md
+unity-editor-tool-developer,Unity Editor Tool Developer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/unity/unity-editor-tool-developer.md
+unity-multiplayer-engineer,Unity Multiplayer Engineer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/unity/unity-multiplayer-engineer.md
+unity-shader-graph-artist,Unity Shader Graph Artist,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/unity/unity-shader-graph-artist.md
+unreal-multiplayer-architect,Unreal Multiplayer Architect,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/unreal-engine/unreal-multiplayer-architect.md
+unreal-systems-engineer,Unreal Systems Engineer,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/unreal-engine/unreal-systems-engineer.md
+unreal-technical-artist,Unreal Technical Artist,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/unreal-engine/unreal-technical-artist.md
+unreal-world-builder,Unreal World Builder,game-development,Reserve,chief-of-staff,build,reserve,agents-library/game-development/unreal-engine/unreal-world-builder.md
+visionos-spatial-engineer,visionOS Spatial Engineer,spatial-computing,Reserve,chief-of-staff,build,reserve,agents-library/spatial-computing/visionos-spatial-engineer.md
+xr-cockpit-interaction-specialist,XR Cockpit Interaction Specialist,spatial-computing,Reserve,chief-of-staff,build,reserve,agents-library/spatial-computing/xr-cockpit-interaction-specialist.md
+xr-immersive-developer,XR Immersive Developer,spatial-computing,Reserve,chief-of-staff,build,reserve,agents-library/spatial-computing/xr-immersive-developer.md
+xr-interface-architect,XR Interface Architect,spatial-computing,Reserve,chief-of-staff,build,reserve,agents-library/spatial-computing/xr-interface-architect.md
+zk-steward,ZK Steward,specialized,Reserve,chief-of-staff,advise,reserve,agents-library/specialized/zk-steward.md

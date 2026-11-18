@@ -21,4 +21,29 @@ agent = event.get("agent_type") or event.get("subagent_type")
 if agent and os.path.exists(os.path.join(root, "memory", "paused", agent)):
     print(f"Agent '{agent}' is paused by the founder (memory/paused/{agent}).", file=sys.stderr)
     sys.exit(2)
+
+# memory/paused/team-<department> pauses a whole department (see memory/org/roster.csv).
+LEADS = {"chief-of-staff": "leadership", "front-desk": "front-desk", "sales": "sales",
+         "solutions-architect": "solutions", "web-builder": "web", "automation-builder": "automation",
+         "voice-chat-builder": "automation", "software-engineer": "engineering",
+         "operations-support": "operations", "finance-admin": "finance"}
+DEPTS = {"Leadership & Operations": "leadership", "Front Desk & Customer Care": "front-desk", "Sales": "sales",
+         "Marketing": "marketing", "Solutions & Proposals": "solutions", "Web & Design": "web",
+         "Automation & AI": "automation", "Engineering": "engineering", "Quality & Testing": "engineering",
+         "Security & Compliance": "security", "Operations & Support": "operations", "Finance": "finance"}
+if agent:
+    team = LEADS.get(agent)
+    if not team:
+        try:
+            import csv
+            with open(os.path.join(root, "memory", "org", "roster.csv"), newline="") as fh:
+                for row in csv.DictReader(fh):
+                    if row["agent"] == agent:
+                        team = DEPTS.get(row["department"])
+                        break
+        except OSError:
+            pass
+    if team and os.path.exists(os.path.join(root, "memory", "paused", "team-" + team)):
+        print(f"The {team} team is paused by the founder (memory/paused/team-{team}).", file=sys.stderr)
+        sys.exit(2)
 sys.exit(0)

@@ -1,6 +1,6 @@
 # Founder approval queue
 
-Agents add items at the bottom. Only the founder changes `Status`. Keep the queue short: approve, reject or ask for changes every morning.
+Agents add items at the bottom. Only the founder changes `Status`: `APPROVED`, `CHANGE` (with a note: the agent redoes it and saves the note as a founder lesson) or `REJECTED`. Keep the queue short: approve, reject or ask for changes every morning.
 
 Format:
 

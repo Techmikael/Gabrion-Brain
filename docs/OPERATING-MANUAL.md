@@ -81,7 +81,14 @@ Windows: use `python` instead of `python3` in `site/package.json` (the `build` l
 ```bash
 bash scripts/install_agency_agents.sh
 ```
-This adds the 70 agency-agents specialists (sales, marketing, product, project management, support, finance) to Claude Code. `docs/specialist-agents.md` says which one to use for each job. Windows: ask Claude in the gabrion-brain folder to "run scripts/install_agency_agents.sh".
+This places all 283 agency-agents specialists in the business: each gets a department, a manager (one of your ten agents), a tier (advise, draft or build) and the tools to match. 78 go on duty straight away; the rest wait on the bench or in reserve. See `docs/ORG-CHART.md` and `docs/AGENT-RULES.md`.
+
+Your team, day to day:
+- `python3 scripts/team.py list` shows who is where; `python3 scripts/team.py show <name>` shows one agent and what it has learned.
+- `python3 scripts/team.py hire <name>` puts a specialist on duty; `bench <name>` takes it off. Then run `python3 scripts/team.py apply`.
+- Pause a department by creating `memory/paused/team-sales` (or `team-marketing`, `team-web`, ...). Delete the file to resume.
+- Teach an agent: when you mark an approval `CHANGE`, write what to do differently in the Founder note. It becomes a lesson the agent reads before every task.
+- Every job follows a workflow in `workflows/`, which names who does each step and who checks it before it reaches you. Windows: ask Claude in the gabrion-brain folder to "run scripts/install_agency_agents.sh".
 
 ### 6c. Optional: ruflo agent swarms
 For software and website builds, ruflo lets several agents work together and remember past jobs. Install it the safe way (not with ruflo's own `npx ruflo@latest init`):
