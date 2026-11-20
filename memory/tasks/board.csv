@@ -10,3 +10,4 @@ T008,Build the website demo (salon template) and publish Gabrion's own site,gabr
 T009,Set up the AI receptionist demo on a test number,gabrion,voice-chat-builder,todo,2026-11-27,ai-receptionist-setup,,Needs Twilio + Vapi or Retell accounts
 T010,Professional indemnity and cyber insurance quotes,gabrion,founder,todo,2026-12-04,,,
 T011,Win 3 paying clients (phase 1 gate),gabrion,sales,todo,2027-02-12,discovery-call,,
+T012,"Build GABO website prototype (Next.js, 13 SKUs + 4 routine sets)",gabo,web-builder,review,2026-11-27,website-build,,"Prototype in clients/gabo/site (git-ignored vault); founder review before staging"
