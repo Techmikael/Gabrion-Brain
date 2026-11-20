@@ -17,8 +17,16 @@ Sports brands (Nike, ASICS, Salomon) make brilliant performance shoes, but they 
 | 1 | **Gabo AM** | Morning: gym, then walk | Stable, low-drop forefoot for lifting; cushioned heel for walking; grippy rubber outsole; breathable mesh; quick-lace | Nike training, ASICS Gel, Salomon trail runners |
 | 2 | **Gabo Daily** | Everyday | Clean low-top, comfortable cupsole, easy to clean, works with jeans or shorts | Classic everyday court shoe or runner |
 | 3 | **Gabo Daily Fine** | A smarter everyday | Same comfort as Daily, but premium full-grain leather or suede, slimmer profile, tonal colours, hidden details | Dior and Chanel quiet-luxury trainers |
-| 4 | **Gabo Transit** | Commuting and errands | Water-resistant upper, reflective trims, wet-grip outsole, slip-on or speed-lace, all-day standing comfort | Salomon and ASICS city-utility |
+| 4 | **Gabo Transit** | Commuting and errands | Durable and weather-resistant, Salomon-style speed-lace, wet-grip outsole, reflective trims; sleek enough for the office; bold colour mixes | Salomon and ASICS city-utility |
 | 5 | **Gabo PM** (a range of styles) | Evening and weekend | Statement pieces: comfortable enough for a night out, smart enough for a restaurant | Chanel runners, Dior B-series, Android Homme |
+
+### Gabo Transit: the commute-to-office shoe (founder priority)
+The founder is serious about shoes and wants to wear Gabo designs every day, so Transit has to do two jobs: survive the commute and look right in the office.
+- **Durable**: abrasion-resistant ripstop or coated-mesh upper, a toe bumper, reinforced heel counter, and a hard-wearing rubber outsole that doesn't wear flat in months.
+- **Weather-resistant**: water-resistant upper and gusseted tongue to keep rain and puddles out; deep wet-grip lugs for wet pavements and stations.
+- **Salomon-style**: trail-runner shape and speed-lace system, so it's quick on and off.
+- **Office-ready**: a toned-down, sleeker version (slimmer sole edge, tonal colours, optional leather or suede overlays) so it doesn't look like a hiking shoe at a desk.
+- **Cool colour mixes**: two colourway families. *Commute* has bold technical mixes (e.g. olive/orange, slate/acid green, navy/burnt red). *Office* has tonal mixes (e.g. black/charcoal/bone, stone/tan, grey/cream).
 
 ### Gabo PM: evening and weekend styles
 - **PM Runner**: luxe runner shape in suede, nylon and leather panels, with metallic or tonal accents.
